@@ -985,3 +985,32 @@ section {
   font-family: 'Material Icons';
   content: "\e5c5";
 }
+
+
+.map-responsive{
+
+  overflow:hidden;
+
+  padding-bottom:56.25%;
+
+  position:relative;
+
+  height:0;
+
+}
+
+.map-responsive iframe{
+
+  left:2%;
+
+  top:5%;
+
+  height:100%;
+
+  width:100%;
+
+  position:absolute;
+
+}
+
+
