@@ -63,6 +63,7 @@ h6 {
   opacity: 1;
 }
 
+
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
@@ -106,7 +107,7 @@ h6 {
   font-size: 18px;
   display: inline-block;
   background: #212431;
-  color: #fff;
+  color: #149ddd;
   line-height: 1;
   padding: 8px 0;
   margin-right: 4px;
@@ -270,7 +271,7 @@ h6 {
   color: #fff;
   margin-bottom: 50px;
   font-size: 26px;
-  font-family: "Poppins", sans-serif;
+  font-family: "Rubik", sans-serif;
 }
 
 #hero p span {
