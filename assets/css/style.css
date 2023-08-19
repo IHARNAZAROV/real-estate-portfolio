@@ -1,11 +1,3 @@
-/**
-* Template Name: iPortfolio
-* Updated: Jul 27 2023 with Bootstrap v5.3.1
-* Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
-
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -13,9 +5,9 @@
 
 
 body {
-  font-family: 'Rubik', sans-serif; 
-  
+  font-family: 'Rubik', sans-serif;
   color: #272829;
+  background-color: #bae8e8;
 }
 
 
@@ -96,18 +88,17 @@ h6 {
 }
 
 #header .profile h1 {
-  font-size: 24px;
+  font-size: 36px;
   margin: 0;
   padding: 0;
   font-weight: 600;
   -moz-text-align-last: center;
   text-align-last: center;
-  font-family: "Poppins", sans-serif;
+  font-family: "Caveat", sans-serif;
 }
 
 #header .profile h1 a,
 #header .profile h1 a:hover {
-  color: #fff;
   text-decoration: none;
 }
 
@@ -163,7 +154,7 @@ h6 {
 --------------------------------------------------------------*/
 /* Desktop Navigation */
 .nav-menu {
-  padding: 30px 0 0 0;
+  padding: 18px 0 0 0;
 }
 
 .nav-menu * {
@@ -314,10 +305,11 @@ h6 {
 section {
   padding: 60px 0;
   overflow: hidden;
+  width: 100%;
 }
 
 .section-bg {
-  background: #f5f8fd;
+  background: #bae8e8;
 }
 
 .section-title {
@@ -874,24 +866,27 @@ section {
 @-webkit-keyframes scroll {
   0% {
     -webkit-transform: translateX(0);
-            transform: translateX(0);
+    transform: translateX(0);
   }
+
   100% {
     -webkit-transform: translateX(calc(-250px * 7));
-            transform: translateX(calc(-250px * 7));
+    transform: translateX(calc(-250px * 7));
   }
 }
 
 @keyframes scroll {
   0% {
     -webkit-transform: translateX(0);
-            transform: translateX(0);
+    transform: translateX(0);
   }
+
   100% {
     -webkit-transform: translateX(calc(-250px * 7));
-            transform: translateX(calc(-250px * 7));
+    transform: translateX(calc(-250px * 7));
   }
 }
+
 .client-slider {
   background: white;
   box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.125);
@@ -900,7 +895,9 @@ section {
   overflow: hidden;
   position: relative;
 }
-.client-slider::before, .client-slider::after {
+
+.client-slider::before,
+.client-slider::after {
   background: -webkit-gradient(linear, left top, right top, from(white), to(rgba(255, 255, 255, 0)));
   background: linear-gradient(to right, white 0%, rgba(255, 255, 255, 0) 100%);
   content: "";
@@ -909,23 +906,27 @@ section {
   width: 200px;
   z-index: 2;
 }
+
 .client-slider::after {
   right: 0;
   top: 0;
   -webkit-transform: rotateZ(180deg);
-          transform: rotateZ(180deg);
+  transform: rotateZ(180deg);
 }
+
 .client-slider::before {
   left: 0;
   top: 0;
 }
+
 .client-slider .client-slide-track {
   -webkit-animation: scroll 40s linear infinite;
-          animation: scroll 40s linear infinite;
+  animation: scroll 40s linear infinite;
   display: -webkit-box;
   display: flex;
   width: calc(250px * 14);
 }
+
 .client-slider .client-slide {
   height: 100px;
   width: 250px;
@@ -987,30 +988,17 @@ section {
 }
 
 
-.map-responsive{
-
-  overflow:hidden;
-
-  padding-bottom:56.25%;
-
-  position:relative;
-
-  height:0;
-
+.map-responsive {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
 }
 
-.map-responsive iframe{
-
-  left:2%;
-
-  top:5%;
-
-  height:100%;
-
-  width:100%;
-
-  position:absolute;
-
+.map-responsive iframe {
+  left: 2%;
+  top: 5%;
+  height: 100%;
+  width: 100%;
+  position: absolute;
 }
-
-
