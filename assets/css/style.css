@@ -1,14 +1,114 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+/* loader */
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
 
+ #loading {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  z-index: 9999;
+} 
+#loading {
+  display: block;
+}
 
+.loading-text {
+    position: absolute;
+    top: 40%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: center;
+    width: 100%;
+    height: auto;
+    line-height: 100px;
+ 
+}
+.loading-text span {
+  display: inline-block;
+  margin: 0 5px;
+  color: #000;
+  font-family: 'Montserrat', sans-serif;
+    font-weight:bold;
+ 
+}
+.loading-text span:nth-child(1) {
+  -webkit-filter: blur(0px);
+          filter: blur(0px);
+  -webkit-animation: blur-text 1.5s 0s infinite linear alternate;
+          animation: blur-text 1.5s 0s infinite linear alternate;
+}
+.loading-text span:nth-child(2) {
+  -webkit-filter: blur(0px);
+          filter: blur(0px);
+  -webkit-animation: blur-text 1.5s 0.2s infinite linear alternate;
+          animation: blur-text 1.5s 0.2s infinite linear alternate;
+}
+.loading-text span:nth-child(3) {
+  -webkit-filter: blur(0px);
+          filter: blur(0px);
+  -webkit-animation: blur-text 1.5s 0.4s infinite linear alternate;
+          animation: blur-text 1.5s 0.4s infinite linear alternate;
+}
+.loading-text span:nth-child(4) {
+  -webkit-filter: blur(0px);
+          filter: blur(0px);
+  -webkit-animation: blur-text 1.5s 0.6s infinite linear alternate;
+          animation: blur-text 1.5s 0.6s infinite linear alternate;
+}
+.loading-text span:nth-child(5) {
+  -webkit-filter: blur(0px);
+          filter: blur(0px);
+  -webkit-animation: blur-text 1.5s 0.8s infinite linear alternate;
+          animation: blur-text 1.5s 0.8s infinite linear alternate;
+}
+.loading-text span:nth-child(6) {
+  -webkit-filter: blur(0px);
+          filter: blur(0px);
+  -webkit-animation: blur-text 1.5s 1s infinite linear alternate;
+          animation: blur-text 1.5s 1s infinite linear alternate;
+}
+.loading-text span:nth-child(7) {
+  -webkit-filter: blur(0px);
+          filter: blur(0px);
+  -webkit-animation: blur-text 1.5s 1.2s infinite linear alternate;
+          animation: blur-text 1.5s 1.2s infinite linear alternate;
+}
 
-body {
+@-webkit-keyframes blur-text {
+  0% {
+    -webkit-filter: blur(0px);
+            filter: blur(0px);
+  }
+  100% {
+    -webkit-filter: blur(4px);
+            filter: blur(4px);
+  }
+}
+
+@keyframes blur-text {
+  0% {
+    -webkit-filter: blur(0px);
+            filter: blur(0px);
+  }
+  100% {
+    -webkit-filter: blur(4px);
+            filter: blur(4px);
+  }
+}
+/* end loader */
+
+ body {
   font-family: 'Rubik', sans-serif;
   color: #272829;
-  background-color: #bae8e8;
-}
+  background-color: #fffffe;
+} 
 
 
 a {
@@ -310,7 +410,7 @@ section {
 }
 
 .section-bg {
-  background: #bae8e8;
+  background: #fffffe;
 }
 
 .section-title {
@@ -824,40 +924,6 @@ section {
 
   .breadcrumbs ol li {
     display: inline-block;
-  }
-}
-
-/*--------------------------------------------------------------
-# Footer
---------------------------------------------------------------*/
-#footer {
-  padding: 15px;
-  color: #f4f6fd;
-  font-size: 14px;
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 300px;
-  z-index: 9999;
-  background: #040b14;
-}
-
-#footer .copyright {
-  text-align: center;
-}
-
-#footer .credits {
-  padding-top: 5px;
-  text-align: center;
-  font-size: 13px;
-  color: #eaebf0;
-}
-
-@media (max-width: 1199px) {
-  #footer {
-    position: static;
-    width: auto;
-    padding-right: 20px 15px;
   }
 }
 
