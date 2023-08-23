@@ -3,6 +3,9 @@
   "use strict";
 /** Loader */
 
+setTimeout(() => {
+  document.querySelector('#loading').style.display = 'none';
+}, 3000);
 
 
 
