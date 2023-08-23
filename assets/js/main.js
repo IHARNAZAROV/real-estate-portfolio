@@ -6,8 +6,11 @@
 setTimeout(() => {
   document.querySelector('#loading').style.display = 'none';
 }, 3000);
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> 3477e3ece9f0c56d394b890a63b9abf7ff8e9175
 
   /**
    * Easy selector helper function
