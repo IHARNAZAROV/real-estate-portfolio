@@ -12,7 +12,6 @@
   height: 100%;
   background: #fff;
   z-index: 9999;
-<<<<<<< HEAD
 } 
 #loading {
   display: block;
@@ -107,9 +106,6 @@
   }
 } 
 /* end loader */
-=======
-}
->>>>>>> 3477e3ece9f0c56d394b890a63b9abf7ff8e9175
 
 #loading {
   display: block;
