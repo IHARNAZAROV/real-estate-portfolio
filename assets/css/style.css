@@ -1140,9 +1140,7 @@ section {
   position: relative;
   color: #ffffff;
 }
-.postcard.dark {
-  background-color: #18151f;
-}
+
 .postcard.light {
   background-color: #e1e5ea;
 }
@@ -1161,7 +1159,7 @@ section {
   font-size: 80%;
 }
 .postcard .postcard__title {
-  font-size: 1.75rem;
+  font-size: 4.75rem;
 }
 .postcard .postcard__img {
   max-height: 180px;
@@ -1232,9 +1230,7 @@ section {
   .postcard {
     flex-wrap: inherit;
   }
-  .postcard .postcard__title {
-    font-size: 2rem;
-  }
+ 
   .postcard .postcard__tagbox {
     justify-content: start;
   }
@@ -1247,7 +1243,7 @@ section {
     padding: 3rem;
     width: 100%;
   }
-  .postcard .media.postcard__text:before {
+/*   .postcard .media.postcard__text:before {
     content: "";
     position: absolute;
     display: block;
@@ -1255,7 +1251,7 @@ section {
     top: -20%;
     height: 130%;
     width: 55px;
-  }
+  } */
   .postcard:hover .postcard__img {
     transform: scale(1.1);
   }
@@ -1279,14 +1275,14 @@ section {
     padding: 2rem 3.5rem;
   }
 
-  .postcard__text:before {
+  /* .postcard__text:before {
     content: "";
     position: absolute;
     display: block;
     top: -20%;
     height: 130%;
     width: 55px;
-  }
+  } */
 
   .postcard.dark .postcard__text:before {
     background: #18151f;
