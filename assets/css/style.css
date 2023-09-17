@@ -1374,7 +1374,6 @@ ul li i:after {
 
 #faq .no-select,
 #faq h2 {
-  -webkit-tap-highlight-color: transparent;
   -webkit-touch-callout: none;
   -webkit-user-select: none;
 }
@@ -1477,7 +1476,7 @@ ul li i:after {
   max-height: 0;
   transition: .3s;
   opacity: 0;
-  /*transform: translate(0, 50%);*/
+  transform: translate(0, 50%);
 }
 
 #faq ul li input[type=checkbox]:checked~i:before {
