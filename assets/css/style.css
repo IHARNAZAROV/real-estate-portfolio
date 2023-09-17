@@ -1373,15 +1373,9 @@ ul li i:after {
 }
 
 #faq .no-select,
-#faq h2 {
+#faq h4 {
   -webkit-touch-callout: none;
   -webkit-user-select: none;
-}
-
-#faq h1 {
-  color: #000;
-  margin-bottom: 30px;
-  margin-top: 0;
 }
 
 
@@ -1411,6 +1405,7 @@ ul li i:after {
   perspective: 900;
   padding: 0;
   margin: 0;
+  color:#149ddd;
 }
 
 #faq ul li {
@@ -1418,8 +1413,6 @@ ul li i:after {
   overflow: hidden;
   padding: 0;
   margin: 0;
-  /*padding-bottom: 4px;*/
-  /*padding-top: 18px;*/
   background: #fff;
   box-shadow: 0 3px 10px -2px rgba(0, 0, 0, 0.1);
   -webkit-tap-highlight-color: transparent;
@@ -1467,8 +1460,8 @@ ul li i:after {
   touch-action: manipulation;
 }
 
-#faq ul li input[type=checkbox]:checked~h2 {
-  color: #000;
+#faq ul li input[type=checkbox]:checked~h4 {
+  color: #050d18;
 }
 
 #faq ul li input[type=checkbox]:checked~p {
