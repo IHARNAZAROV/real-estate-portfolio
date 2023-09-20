@@ -209,4 +209,43 @@
   /* Initiate Pure Counter   */
   new PureCounter();
 
+
+  /*Clock*/
+  let date = document.getElementById('date')
+  let time = document.getElementById('time')
+  let d, currentDate, currentTime, lastDate, lastTime;
+
+  function tick() {
+    d = new Date()
+
+    currentDate = d.toLocaleDateString('ru', {
+      weekday: 'long',
+      year: 'numeric',
+      month: 'long',
+      day: 'numeric'
+    })
+
+    currentTime = d.toLocaleTimeString('ru', {
+      hour: 'numeric',
+      minute: 'numeric'
+    })
+
+    if (lastDate !== currentDate) {
+      console.log('Update Date DOM')
+      date.textContent = currentDate
+      lastDate = currentDate
+    }
+
+    if (lastTime !== currentTime) {
+      console.log('Update Time DOM')
+
+      let meridian = currentTime.substr(currentTime.length - 2);
+      time.innerHTML = currentTime.substr(0, currentTime.length - 3) + ':' + meridian;
+      lastTime = currentTime
+    }
+  }
+
+  tick()
+  setInterval(tick, 1000)
+
 })()
