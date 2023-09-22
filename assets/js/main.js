@@ -248,11 +248,4 @@
   tick()
   setInterval(tick, 1000)
 
-/* Frame */
-  document.getElementByClassName("hover").mouseleave(
-    function () {
-      this.classList.remove("hover");
-    }
-  );
-
 })()
