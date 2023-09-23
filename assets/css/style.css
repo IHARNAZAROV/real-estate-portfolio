@@ -11,7 +11,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: linear-gradient(to right, #b6fbff, #83a4d4);
+  background-image: linear-gradient(to right, #DDB0D5, #D2649B );
   z-index: 9999
 }
 
@@ -123,16 +123,16 @@
 body {
   font-family: Rubik, sans-serif;
   color: #272829;
-  background-color: #fffffe
+  background-color: #E6BFC7
 }
 
 a {
-  color: #149ddd;
+  color: #922858;
   text-decoration: none
 }
 
 a:hover {
-  color: #37b3ed;
+  color: #822E46;
   text-decoration: none;
   transform: scale(1.1)
 }
@@ -144,7 +144,7 @@ a:hover {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #149ddd;
+  background: #640007;
   width: 40px;
   height: 40px;
   border-radius: 50px;
@@ -158,8 +158,8 @@ a:hover {
 }
 
 .back-to-top:hover {
-  background: #2eafec;
-  color: #fff
+  background: #E14591;
+  color: #b20933
 }
 
 .back-to-top.active {
@@ -206,8 +206,8 @@ a:hover {
 #header .profile .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #212431;
-  color: #149ddd;
+  background: #D3B1C2;
+  color: #640007;
   line-height: 1;
   padding: 8px 0;
   margin-right: 4px;
@@ -219,7 +219,7 @@ a:hover {
 }
 
 #header .profile .social-links a:hover {
-  background: #149ddd;
+  background: #640007;
   color: #fff;
   text-decoration: none
 }
@@ -269,7 +269,7 @@ a:hover {
 .nav-menu a:focus {
   display: flex;
   align-items: center;
-  color: #a8a9b4;
+  color: #E6BFC7;
   padding: 4px 15px;
   margin-bottom: 8px;
   transition: .3s;
@@ -280,7 +280,7 @@ a:hover {
 .nav-menu a:focus i {
   font-size: 24px;
   padding-right: 8px;
-  color: #6f7180
+  color: #E6BFC7
 }
 
 .nav-menu .active,
@@ -295,7 +295,7 @@ a:hover {
 .nav-menu .active:focus i,
 .nav-menu a:hover i,
 .nav-menu li:hover>a i {
-  color: #149ddd
+  color: #922858
 }
 
 .mobile-nav-toggle {
@@ -307,7 +307,7 @@ a:hover {
   font-size: 24px;
   transition: all .4s;
   outline: 0 !important;
-  background-color: #149ddd;
+  background-color: #922858;
   color: #fff;
   width: 40px;
   height: 40px;
@@ -334,7 +334,7 @@ section {
 }
 
 .section-bg {
-  background: #fffffe
+  background: #E6BFC7
 }
 
 .section-title {
@@ -347,7 +347,7 @@ section {
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
-  color: #173b6c
+  color: #640007
 }
 
 .section-title h2::after {
@@ -356,7 +356,7 @@ section {
   display: block;
   width: 50px;
   height: 3px;
-  background: #149ddd;
+  background: #922858;
   bottom: 0;
   left: 0
 }
@@ -368,7 +368,7 @@ section {
 .about .content h3 {
   font-weight: 700;
   font-size: 26px;
-  color: #173b6c
+  color: #C91959
 }
 
 .about .content ul {
@@ -389,7 +389,7 @@ section {
 .about .content ul i {
   font-size: 16px;
   margin-right: 5px;
-  color: #149ddd;
+  color: #640007;
   line-height: 0
 }
 
@@ -406,7 +406,7 @@ section {
   margin: 0 auto 35px auto;
   list-style: none;
   text-align: center;
-  background: #fff;
+  background: #640007;
   border-radius: 50px;
   padding: 2px 15px
 }
@@ -419,14 +419,14 @@ section {
   font-weight: 600;
   line-height: 1;
   text-transform: uppercase;
-  color: #272829;
+  color: #EBD1EA;
   margin-bottom: 5px;
   transition: all .3s ease-in-out
 }
 
 .portfolio #portfolio-flters li.filter-active,
 .portfolio #portfolio-flters li:hover {
-  color: #149ddd
+  color: #D1829B
 }
 
 .portfolio #portfolio-flters li:last-child {
@@ -469,17 +469,17 @@ section {
   color: #fff;
   font-size: 28px;
   text-align: center;
-  background: rgba(20, 157, 221, .75);
+  background: #640007;
   transition: .3s;
   width: 50%
 }
 
 .portfolio .portfolio-wrap .portfolio-links a:hover {
-  background: rgba(20, 157, 221, .95)
+  background: #640007;
 }
 
 .portfolio .portfolio-wrap .portfolio-links a+a {
-  border-left: 1px solid #37b3ed
+  border-left: 1px solid #640007;
 }
 
 .portfolio .portfolio-wrap:hover::before {
@@ -506,24 +506,24 @@ section {
   justify-content: center;
   width: 54px;
   height: 54px;
-  background: #149ddd;
+  background: #640007;
   border-radius: 50%;
   transition: .5s;
-  border: 1px solid #149ddd
+  border: 1px solid #640007
 }
 
 .services .icon i {
-  color: #fff;
+  color: #E6BFC7;
   font-size: 24px;
   line-height: 0
 }
 
 .services .icon-box:hover .icon {
-  background: #fff
+  background: #E6BFC7
 }
 
 .services .icon-box:hover .icon i {
-  color: #149ddd
+  color: #640007
 }
 
 .services .title {
@@ -534,11 +534,11 @@ section {
 }
 
 .services .title a {
-  color: #343a40
+  color: #640007
 }
 
 .services .title a:hover {
-  color: #149ddd
+  color: #050d18
 }
 
 .services .description {
@@ -567,12 +567,12 @@ section {
   font-size: 18px;
   font-weight: 700;
   margin: 10px 0 5px 0;
-  color: #111
+  color: #050d18
 }
 
 .testimonials .testimonial-item h4 {
   font-size: 14px;
-  color: #999;
+  color: #640007;
   margin: 0
 }
 
@@ -629,18 +629,18 @@ section {
 
 .contact .info {
   padding: 30px;
-  background: #fff;
+  background: #E6BFC7;
   width: 100%;
   box-shadow: 0 0 24px 0 rgba(0, 0, 0, .12)
 }
 
 .contact .info i {
   font-size: 20px;
-  color: #149ddd;
+  color: #ffe;
   float: left;
   width: 44px;
   height: 44px;
-  background: #dff3fc;
+  background: #640007;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -660,7 +660,7 @@ section {
   padding: 0 0 10px 60px;
   margin-bottom: 20px;
   font-size: 14px;
-  color: #173b6c
+  color: #640007
 }
 
 .contact .info .email p {
@@ -675,7 +675,7 @@ section {
   font-size: 18px;
   display: inline-block;
   background: #333;
-  color: #fff;
+  color: #640007;
   line-height: 1;
   padding: 8px 0;
   border-radius: 50%;
@@ -687,14 +687,14 @@ section {
 }
 
 .contact .info .social-links a:hover {
-  background: #149ddd;
-  color: #fff
+  background: #922858;
+  color: #640007
 }
 
 .contact .info .address:hover i,
 .contact .info .email:hover i,
 .contact .info .phone:hover i {
-  background: #149ddd;
+  background: #922858;
   color: #fff
 }
 
@@ -723,7 +723,7 @@ section {
 
 #footer .copyright {
   text-align: center;
-  color: #149ddd
+  color: #922858
 }
 
 @media (max-width:1199px) {
@@ -759,7 +759,7 @@ section {
 }
 
 .client-slider {
-  background: #fff;
+  background: #922858;
   box-shadow: 0 10px 20px -5px rgba(0, 0, 0, .125);
   height: 100px;
   margin: auto;
@@ -1153,7 +1153,7 @@ ul li i:before {
   perspective: 900;
   padding: 0;
   margin: 0;
-  color: #149ddd
+  color: #640007
 }
 
 #faq ul li {
@@ -1161,7 +1161,7 @@ ul li i:before {
   overflow: hidden;
   padding: 0;
   margin: 0;
-  background: #fff;
+  background: #E6BFC7;
   box-shadow: 0 3px 10px -2px rgba(0, 0, 0, .1);
   -webkit-tap-highlight-color: transparent
 }
@@ -1247,7 +1247,7 @@ ul li i:before {
 
 .badge:hover .text {
   transform: rotate(-45deg) translate(0) rotate(-315deg);
-  background: rgba(102, 51, 153, .5);
+  background: rgba(100, 0, 7, .5);
   width: 20rem;
   letter-spacing: 1rem;
   line-height: 20rem;
@@ -1272,7 +1272,7 @@ ul li i:before {
   text-align: center;
   color: #fff;
   border-radius: 50%;
-  background: rgba(102, 51, 153, .5);
+  background: rgba(100, 0, 7, .5);
   transform: rotate(-180deg) translate(-10rem) rotate(180deg);
   box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .5);
   transition: all .5s cubic-bezier(.55, 0, .1, 1)
