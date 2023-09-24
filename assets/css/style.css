@@ -2,7 +2,8 @@
 
 @font-face {
   font-family: tangak;
-  src: url(/assets/fonts/tangak.ttf) format('truetype'), url(/assets/fonts/tangak.woff) format('woff')
+  src: url(/assets/fonts/tangak.ttf) format('truetype'), url(/assets/fonts/tangak.woff) format('woff');
+  font-style: normal;
 }
 
 #loading {
@@ -11,7 +12,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: linear-gradient(to right, #DDB0D5, #D2649B );
+  background-image: linear-gradient(to right, #DDB0D5, #D2649B);
   z-index: 9999
 }
 
@@ -144,7 +145,7 @@ a:hover {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #640007;
+  background: #601615;
   width: 40px;
   height: 40px;
   border-radius: 50px;
@@ -185,7 +186,7 @@ a:hover {
   margin: 15px auto;
   display: block;
   width: 120px;
-  border: 8px solid #2c2f3f
+  border: 8px solid #601615
 }
 
 #header .profile h1 {
@@ -195,7 +196,8 @@ a:hover {
   font-weight: 600;
   -moz-text-align-last: center;
   text-align-last: center;
-  font-family: tangak
+  font-family: tangak;
+  font-style: normal;
 }
 
 #header .profile h1 a,
@@ -207,7 +209,7 @@ a:hover {
   font-size: 18px;
   display: inline-block;
   background: #D3B1C2;
-  color: #640007;
+  color: #601615;
   line-height: 1;
   padding: 8px 0;
   margin-right: 4px;
@@ -219,7 +221,7 @@ a:hover {
 }
 
 #header .profile .social-links a:hover {
-  background: #640007;
+  background: #601615;
   color: #fff;
   text-decoration: none
 }
@@ -347,7 +349,7 @@ section {
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
-  color: #640007
+  color: #601615
 }
 
 .section-title h2::after {
@@ -376,6 +378,11 @@ section {
   padding: 0
 }
 
+.textabout {
+  color: #601615;
+  font-weight:700
+}
+
 .about .content ul li {
   margin-bottom: 20px;
   display: flex;
@@ -389,7 +396,7 @@ section {
 .about .content ul i {
   font-size: 16px;
   margin-right: 5px;
-  color: #640007;
+  color: #601615;
   line-height: 0
 }
 
@@ -406,7 +413,7 @@ section {
   margin: 0 auto 35px auto;
   list-style: none;
   text-align: center;
-  background: #640007;
+  background: #601615;
   border-radius: 50px;
   padding: 2px 15px
 }
@@ -469,17 +476,17 @@ section {
   color: #fff;
   font-size: 28px;
   text-align: center;
-  background: #640007;
+  background: #601615;
   transition: .3s;
   width: 50%
 }
 
 .portfolio .portfolio-wrap .portfolio-links a:hover {
-  background: #640007;
+  background: #601615;
 }
 
 .portfolio .portfolio-wrap .portfolio-links a+a {
-  border-left: 1px solid #640007;
+  border-left: 1px solid #601615;
 }
 
 .portfolio .portfolio-wrap:hover::before {
@@ -506,10 +513,10 @@ section {
   justify-content: center;
   width: 54px;
   height: 54px;
-  background: #640007;
+  background: #601615;
   border-radius: 50%;
   transition: .5s;
-  border: 1px solid #640007
+  border: 1px solid #601615
 }
 
 .services .icon i {
@@ -523,7 +530,7 @@ section {
 }
 
 .services .icon-box:hover .icon i {
-  color: #640007
+  color: #601615
 }
 
 .services .title {
@@ -534,7 +541,7 @@ section {
 }
 
 .services .title a {
-  color: #640007
+  color: #601615
 }
 
 .services .title a:hover {
@@ -572,7 +579,7 @@ section {
 
 .testimonials .testimonial-item h4 {
   font-size: 14px;
-  color: #640007;
+  color: #601615;
   margin: 0
 }
 
@@ -640,7 +647,7 @@ section {
   float: left;
   width: 44px;
   height: 44px;
-  background: #640007;
+  background: #601615;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -660,7 +667,7 @@ section {
   padding: 0 0 10px 60px;
   margin-bottom: 20px;
   font-size: 14px;
-  color: #640007
+  color: #601615
 }
 
 .contact .info .email p {
@@ -675,7 +682,7 @@ section {
   font-size: 18px;
   display: inline-block;
   background: #333;
-  color: #640007;
+  color: #601615;
   line-height: 1;
   padding: 8px 0;
   border-radius: 50%;
@@ -688,7 +695,7 @@ section {
 
 .contact .info .social-links a:hover {
   background: #922858;
-  color: #640007
+  color: #601615
 }
 
 .contact .info .address:hover i,
@@ -1153,7 +1160,7 @@ ul li i:before {
   perspective: 900;
   padding: 0;
   margin: 0;
-  color: #640007
+  color: #601615
 }
 
 #faq ul li {
@@ -1185,7 +1192,7 @@ ul li i:before {
 #faq ul li i:before {
   content: "";
   position: absolute;
-  background-color: #149ddd;
+  background-color: #601615;
   width: 3px;
   height: 9px
 }
@@ -1269,6 +1276,7 @@ ul li i:before {
   margin-left: -10rem;
   font-size: 2rem;
   font-family: tangak;
+  font-style: normal;
   text-align: center;
   color: #fff;
   border-radius: 50%;
@@ -1279,14 +1287,15 @@ ul li i:before {
 }
 
 .reveal {
-  color: #fff;
+  color: #601615;
   -webkit-transition: all .4s;
   transition: all .4s;
   margin: 0 0 10px 0;
   font-size: 64px;
   font-weight: 700;
   line-height: 56px;
-  font-family: tangak, sans-serif
+  font-family: tangak;
+  font-style: normal;
 }
 
 .reveal-demo {
@@ -1319,7 +1328,7 @@ ul li i:before {
   font-weight: 700;
   bottom: -90px;
   left: 50%;
-  color: #fff;
+  color: #E6BFC7;
   width: 200px;
   text-align: center;
   opacity: 0;
@@ -1334,9 +1343,9 @@ ul li i:before {
   position: absolute;
   font-size: 20px;
   font-weight: 700;
-  bottom: -5px;
+  bottom: 50px;
   left: 50%;
-  color: #0a0531;
+  color: #E6BFC7;
   width: 200px;
   text-align: center;
   opacity: 0;

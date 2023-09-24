@@ -231,14 +231,11 @@
     })
 
     if (lastDate !== currentDate) {
-      console.log('Update Date DOM')
       date.textContent = currentDate
       lastDate = currentDate
     }
 
     if (lastTime !== currentTime) {
-      console.log('Update Time DOM')
-
       let meridian = currentTime.substr(currentTime.length - 2);
       time.innerHTML = currentTime.substr(0, currentTime.length - 3) + ':' + meridian;
       lastTime = currentTime
