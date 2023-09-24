@@ -272,7 +272,8 @@ a:hover {
   display: flex;
   align-items: center;
   color: #E6BFC7;
-  padding: 4px 15px;
+  padding-left: 15px;
+  padding-right: 15px;
   margin-bottom: 8px;
   transition: .3s;
   font-size: 15px
