@@ -1,10 +1,9 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat);
 
-
 @font-face {
   font-family: tangak;
   src: url(/assets/fonts/tangak.ttf) format('truetype'), url(/assets/fonts/tangak.woff) format('woff');
-  font-style: normal;
+  font-style: normal
 }
 
 #loading {
@@ -13,7 +12,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: linear-gradient(to right, #DDB0D5, #D2649B);
+  background-image: linear-gradient(to right, #ddb0d5, #d2649b);
   z-index: 9999
 }
 
@@ -125,7 +124,7 @@
 body {
   font-family: Rubik, sans-serif;
   color: #272829;
-  background-color: #E6BFC7
+  background-color: #e6bfc7
 }
 
 a {
@@ -134,7 +133,7 @@ a {
 }
 
 a:hover {
-  color: #822E46;
+  color: #822e46;
   text-decoration: none;
   transform: scale(1.1)
 }
@@ -160,7 +159,7 @@ a:hover {
 }
 
 .back-to-top:hover {
-  background: #E14591;
+  background: #e14591;
   color: #b20933
 }
 
@@ -198,7 +197,7 @@ a:hover {
   -moz-text-align-last: center;
   text-align-last: center;
   font-family: tangak;
-  font-style: normal;
+  font-style: normal
 }
 
 #header .profile h1 a,
@@ -209,7 +208,7 @@ a:hover {
 #header .profile .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #D3B1C2;
+  background: #d3b1c2;
   color: #601615;
   line-height: 1;
   padding: 8px 0;
@@ -272,7 +271,7 @@ a:hover {
 .nav-menu a:focus {
   display: flex;
   align-items: center;
-  color: #E6BFC7;
+  color: #e6bfc7;
   padding-left: 15px;
   padding-right: 15px;
   margin-bottom: 8px;
@@ -284,7 +283,7 @@ a:hover {
 .nav-menu a:focus i {
   font-size: 24px;
   padding-right: 8px;
-  color: #E6BFC7
+  color: #e6bfc7
 }
 
 .nav-menu .active,
@@ -338,7 +337,7 @@ section {
 }
 
 .section-bg {
-  background: #E6BFC7
+  background: #e6bfc7
 }
 
 .section-title {
@@ -372,7 +371,7 @@ section {
 .about .content h3 {
   font-weight: 700;
   font-size: 26px;
-  color: #C91959
+  color: #c91959
 }
 
 .about .content ul {
@@ -382,7 +381,7 @@ section {
 
 .textabout {
   color: #601615;
-  font-weight:700
+  font-weight: 700
 }
 
 .about .content ul li {
@@ -428,14 +427,14 @@ section {
   font-weight: 600;
   line-height: 1;
   text-transform: uppercase;
-  color: #EBD1EA;
+  color: #ebd1ea;
   margin-bottom: 5px;
   transition: all .3s ease-in-out
 }
 
 .portfolio #portfolio-flters li.filter-active,
 .portfolio #portfolio-flters li:hover {
-  color: #D1829B
+  color: #d1829b
 }
 
 .portfolio #portfolio-flters li:last-child {
@@ -484,11 +483,11 @@ section {
 }
 
 .portfolio .portfolio-wrap .portfolio-links a:hover {
-  background: #601615;
+  background: #601615
 }
 
 .portfolio .portfolio-wrap .portfolio-links a+a {
-  border-left: 1px solid #601615;
+  border-left: 1px solid #601615
 }
 
 .portfolio .portfolio-wrap:hover::before {
@@ -502,58 +501,6 @@ section {
 .portfolio .portfolio-wrap:hover .portfolio-links {
   opacity: 1;
   bottom: 0
-}
-
-.services .icon-box {
-  margin-bottom: 20px
-}
-
-.services .icon {
-  float: left;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 54px;
-  height: 54px;
-  background: #601615;
-  border-radius: 50%;
-  transition: .5s;
-  border: 1px solid #601615
-}
-
-.services .icon i {
-  color: #E6BFC7;
-  font-size: 24px;
-  line-height: 0
-}
-
-.services .icon-box:hover .icon {
-  background: #E6BFC7
-}
-
-.services .icon-box:hover .icon i {
-  color: #601615
-}
-
-.services .title {
-  margin-left: 80px;
-  font-weight: 700;
-  margin-bottom: 15px;
-  font-size: 18px
-}
-
-.services .title a {
-  color: #601615
-}
-
-.services .title a:hover {
-  color: #050d18
-}
-
-.services .description {
-  margin-left: 80px;
-  line-height: 24px;
-  font-size: 14px
 }
 
 .testimonials .testimonials-slider {
@@ -638,7 +585,7 @@ section {
 
 .contact .info {
   padding: 30px;
-  background: #E6BFC7;
+  background: #e6bfc7;
   width: 100%;
   box-shadow: 0 0 24px 0 rgba(0, 0, 0, .12)
 }
@@ -911,13 +858,12 @@ section {
   padding: 2.5px 10px;
   margin: 0 5px 5px 0;
   cursor: default;
-  color: #fff
-  -webkit-user-select: none;
+  color: #fff -webkit-user-select: none;
   transition: background-color .3s
 }
 
 .postcard .postcard__tagbox .tag__item:hover {
-  background: rgba(96, 22, 21, .8);
+  background: rgba(96, 22, 21, .8)
 }
 
 .postcard:before {
@@ -1171,7 +1117,7 @@ ul li i:before {
   overflow: hidden;
   padding: 0;
   margin: 0;
-  background: #E6BFC7;
+  background: #e6bfc7;
   box-shadow: 0 3px 10px -2px rgba(0, 0, 0, .1);
   -webkit-tap-highlight-color: transparent
 }
@@ -1298,7 +1244,7 @@ ul li i:before {
   font-weight: 700;
   line-height: 56px;
   font-family: tangak;
-  font-style: normal;
+  font-style: normal
 }
 
 .reveal-demo {
@@ -1331,7 +1277,7 @@ ul li i:before {
   font-weight: 700;
   bottom: -90px;
   left: 50%;
-  color: #E6BFC7;
+  color: #e6bfc7;
   width: 200px;
   text-align: center;
   opacity: 0;
@@ -1348,7 +1294,7 @@ ul li i:before {
   font-weight: 700;
   bottom: 50px;
   left: 50%;
-  color: #E6BFC7;
+  color: #e6bfc7;
   width: 200px;
   text-align: center;
   opacity: 0;
@@ -1422,43 +1368,102 @@ ul li i:before {
 
 .quote-box {
   border-radius: 3px;
-  -webkit-box-shadow: 7px 18px 56px -27px rgba(0,0,0,0.75);
-  -moz-box-shadow: 7px 18px 56px -27px rgba(0,0,0,0.75);
-  box-shadow: 7px 18px 56px -27px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 7px 18px 56px -27px rgba(0, 0, 0, .75);
+  -moz-box-shadow: 7px 18px 56px -27px rgba(0, 0, 0, .75);
+  box-shadow: 7px 18px 56px -27px rgba(0, 0, 0, .75);
   position: relative;
   margin: 8% auto auto auto;
-  /* width: 450px;
-  padding: 40px 50px; */
   display: table;
-  background-color: #D3B1C2;
+  background-color: #d3b1c2
 }
+
 .quote-box .quote-text {
   text-align: center;
   min-height: 100px;
   clear: both;
   font-weight: 500;
   font-size: 1.25em;
-  transition: height 0.66s ease-out;
+  transition: height .66s ease-out
 }
+
 .quote-box .quote-text i {
   text-align: center;
   display: block;
   float: none;
-  font-size: 20px;
+  font-size: 20px
 }
+
 .quote-box blockquote {
-  background: #D3B1C2;
+  background: #d3b1c2;
   border-left: 10px solid #601615;
   margin: 1.5em 10px;
   padding: 2em 10px;
-  quotes: "\201C" "\201D" "\2018" "\2019";
+  quotes: "\201C""\201D""\2018""\2019"
 }
+
 .quote-box blockquote:before {
   color: #601615;
   font-size: 4em;
   content: open-quote;
-  line-height: 0.1em;
-  margin-right: 0.25em;
-  vertical-align: -0.1em;
-  float: left;
+  line-height: .1em;
+  margin-right: .25em;
+  vertical-align: -.1em;
+  float: left
+}
+
+.container-service {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 1200px;
+  flex-wrap: wrap;
+  z-index: 1
+}
+
+.container-service .card {
+  position: relative;
+  width: 280px;
+  height: 400px;
+  margin: 30px;
+  box-shadow: 20px 20px 50px rgba(0, 0, 0, .5);
+  border-radius: 15px;
+  background: rgba(255, 255, 255, .1);
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid rgba(255, 255, 255, .5);
+  border-left: 1px solid rgba(255, 255, 255, .5);
+  backdrop-filter: blur(5px)
+}
+
+.container-service .card .content {
+  padding: 20px;
+  text-align: center
+}
+
+.container-service .card .content .title h3 {
+  font-size: 1.8em;
+  color: #601615;
+  z-index: 1
+}
+
+.container-service .card .content p {
+  font-size: 1em;
+  color: #601615;
+  font-weight: 300
+}
+
+.container-service .card .content a {
+  position: relative;
+  display: inline-block;
+  margin-top: 16px;
+  padding: 8px 20px;
+  background: #601615;
+  color: #000;
+  border-radius: 20px;
+  text-decoration: none;
+  font-weight: 500;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, .2)
 }
