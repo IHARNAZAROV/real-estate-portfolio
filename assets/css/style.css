@@ -715,7 +715,7 @@ section {
 }
 
 .client-slider {
-  background: #922858;
+  background: #e6bfc7;
   box-shadow: 0 10px 20px -5px rgba(0, 0, 0, .125);
   height: 100px;
   margin: auto;
@@ -1467,3 +1467,5 @@ ul li i:before {
   font-weight: 500;
   box-shadow: 0 5px 15px rgba(0, 0, 0, .2)
 }
+
+
