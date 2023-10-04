@@ -6,6 +6,11 @@
   font-style: normal
 }
 
+body { 
+  opacity: 0;
+  transition: opacity .5s;
+}
+
 #loading {
   position: fixed;
   top: 0;
@@ -19,6 +24,11 @@
 #loading {
   display: block
 }
+
+.link{color:#e6bfc7;
+  text-decoration: none;
+  pointer-events: none;
+  cursor: default}
 
 .loading-text {
   position: absolute;
@@ -858,7 +868,8 @@ section {
   padding: 2.5px 10px;
   margin: 0 5px 5px 0;
   cursor: default;
-  color: #fff -webkit-user-select: none;
+  color: #fff ;
+  -webkit-user-select: none;
   transition: background-color .3s
 }
 
