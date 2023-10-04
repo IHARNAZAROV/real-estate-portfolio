@@ -5,58 +5,55 @@ body {
     padding: 0;
     -webkit-font-smoothing: antialiased;
     font-size: 1em;
-   }
- 
-   * {
+}
+
+* {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-   }
- 
-   .sidebar {
+}
+
+.sidebar {
     position: absolute;
-    width: 33.3333%;
+    width: 40%;
     height: 100%;
     top: 0;
     left: 0;
     overflow: hidden;
     border-right: 1px solid rgba(0, 0, 0, 0.25);
-   }
-   @media screen and (min-width:769px){
-    .sidebar { width: 53.3333%;}
-    body { font-size: 1em;}
+}
 
-   }
-   .pad2 {
+
+.pad2 {
     padding: 20px;
-   }
- 
-   .map {
-    position: absolute;
-    left: 33.3333%;
-    width: 66.6666%;
-    top: 0;
-    bottom: 0;
-   }
- 
-   h1 {
+}
+
+.map {
+	position: absolute;
+	left: 40%;
+	width: 60%;
+	top: 0;
+	bottom: 0;
+}
+
+h1 {
     font-size: 22px;
     margin: 0;
     font-weight: 400;
     line-height: 20px;
     padding: 20px 2px;
-   }
- 
-   a {
+}
+
+a {
     color: #404040;
     text-decoration: none;
-   }
- 
-   a:hover {
+}
+
+a:hover {
     color: #101010;
-   }
- 
-   .heading {
+}
+
+.heading {
     background: #fff;
     border-bottom: 1px solid #eee;
     min-height: 60px;
@@ -64,102 +61,102 @@ body {
     padding: 0 10px;
     background-color: #850000;
     color: #fff;
-   }
- 
-   .listings {
+}
+
+.listings {
     height: 100%;
     overflow: auto;
     padding-bottom: 60px;
-   }
- 
-   .listings .item {
+}
+
+.listings .item {
     display: block;
     border-bottom: 1px solid #eee;
     padding: 10px;
     text-decoration: none;
-   }
- 
-   .listings .item:last-child {
+}
+
+.listings .item:last-child {
     border-bottom: none;
-   }
- 
-   .listings .item .title {
+}
+
+.listings .item .title {
     display: block;
     color: #601615;
     font-weight: 700;
-   }
- 
-   .listings .item .title small {
+}
+
+.listings .item .title small {
     font-weight: 400;
-   }
- 
-   .listings .item.active .title,
-   .listings .item .title:hover {
+}
+
+.listings .item.active .title,
+.listings .item .title:hover {
     color: #ff0000;
-   }
- 
-   .listings .item.active {
+}
+
+.listings .item.active {
     background-color: #f8f8f8;
-   }
- 
-   ::-webkit-scrollbar {
+}
+
+::-webkit-scrollbar {
     width: 3px;
     height: 3px;
     border-left: 0;
     background: rgba(0, 0, 0, 0.1);
-   }
- 
-   ::-webkit-scrollbar-track {
+}
+
+::-webkit-scrollbar-track {
     background: none;
-   }
- 
-   ::-webkit-scrollbar-thumb {
+}
+
+::-webkit-scrollbar-thumb {
     background: #851616;
     border-radius: 0;
-   }
- 
-   .marker {
+}
+
+.marker {
     border: none;
     cursor: pointer;
     height: 32px;
     width: 32px;
     background-image: url(https://image.flaticon.com/icons/svg/143/143966.svg);
     background-color: rgba(0, 0, 0, 0);
-   }
- 
-   .clearfix {
+}
+
+.clearfix {
     display: block;
-   }
- 
-   .clearfix:after {
+}
+
+.clearfix:after {
     content: '.';
     display: block;
     height: 0;
     clear: both;
     visibility: hidden;
-   }
- 
-   /* Marker tweaks */
- 
-   .mapboxgl-popup {
+}
+
+/* Marker tweaks */
+
+.mapboxgl-popup {
     padding-bottom: 50px;
-   }
- 
-   .mapboxgl-popup-close-button {
+}
+
+.mapboxgl-popup-close-button {
     display: none;
-   }
- 
-   .mapboxgl-popup-content {
+}
+
+.mapboxgl-popup-content {
     font: 400 15px/22px 'Source Sans Pro', 'Helvetica Neue', Sans-serif;
     padding: 0;
     width: 180px;
-   }
- 
-   .mapboxgl-popup-content-wrapper {
+}
+
+.mapboxgl-popup-content-wrapper {
     padding: 1%;
-   }
- 
-   .mapboxgl-popup-content h3 {
+}
+
+.mapboxgl-popup-content h3 {
     background: #FF3501;
     color: #e6bfc7;
     margin: 0;
@@ -168,27 +165,27 @@ body {
     border-radius: 3px 3px 0 0;
     font-weight: 700;
     margin-top: -15px;
-   }
- 
-   .mapboxgl-popup-content h4 {
+}
+
+.mapboxgl-popup-content h4 {
     margin: 0;
     display: block;
     padding: 10px 10px 10px 10px;
     font-weight: 400;
-   }
- 
-   .mapboxgl-popup-content div {
+}
+
+.mapboxgl-popup-content div {
     padding: 10px;
-   }
- 
-   .mapboxgl-container .leaflet-marker-icon {
+}
+
+.mapboxgl-container .leaflet-marker-icon {
     cursor: pointer;
-   }
- 
-   .mapboxgl-popup-anchor-top>.mapboxgl-popup-content {
+}
+
+.mapboxgl-popup-anchor-top>.mapboxgl-popup-content {
     margin-top: 15px;
-   }
- 
-   .mapboxgl-popup-anchor-top>.mapboxgl-popup-tip {
+}
+
+.mapboxgl-popup-anchor-top>.mapboxgl-popup-tip {
     border-bottom-color: #91c949;
-   }
+}
