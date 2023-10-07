@@ -1,17 +1,14 @@
 
-(function() {
+(function () {
   "use strict";
-/** Loader */
 
-setTimeout(() => {
-  document.querySelector('#loading').style.display = 'none';
-}, 3000);
+  /* Loader */
 
+  setTimeout(() => {
+    document.querySelector('#loading').style.display = 'none';
+  }, 3000);
 
-
-  /**
-   * Easy selector helper function
-   */
+  /* Easy selector helper function */
   const select = (el, all = false) => {
     el = el.trim()
     if (all) {
@@ -21,9 +18,7 @@ setTimeout(() => {
     }
   }
 
-  /**
-   * Easy event listener function
-   */
+  /* Easy event listener function */
   const on = (type, el, listener, all = false) => {
     let selectEl = select(el, all)
     if (selectEl) {
@@ -35,16 +30,12 @@ setTimeout(() => {
     }
   }
 
-  /**
-   * Easy on scroll event listener 
-   */
+  /* Easy on scroll event listener   */
   const onscroll = (el, listener) => {
     el.addEventListener('scroll', listener)
   }
 
-  /**
-   * Navbar links active state on scroll
-   */
+  /* Navbar links active state on scroll  */
   let navbarlinks = select('#navbar .scrollto', true)
   const navbarlinksActive = () => {
     let position = window.scrollY + 200
@@ -62,9 +53,7 @@ setTimeout(() => {
   window.addEventListener('load', navbarlinksActive)
   onscroll(document, navbarlinksActive)
 
-  /**
-   * Scrolls to an element with header offset
-   */
+  /* Scrolls to an element with header offset  */
   const scrollto = (el) => {
     let elementPos = select(el).offsetTop
     window.scrollTo({
@@ -73,9 +62,7 @@ setTimeout(() => {
     })
   }
 
-  /**
-   * Back to top button
-   */
+  /* Back to top button  */
   let backtotop = select('.back-to-top')
   if (backtotop) {
     const toggleBacktotop = () => {
@@ -89,19 +76,15 @@ setTimeout(() => {
     onscroll(document, toggleBacktotop)
   }
 
-  /**
-   * Mobile nav toggle
-   */
-  on('click', '.mobile-nav-toggle', function(e) {
+  /* Mobile nav toggle  */
+  on('click', '.mobile-nav-toggle', function (e) {
     select('body').classList.toggle('mobile-nav-active')
     this.classList.toggle('bi-list')
     this.classList.toggle('bi-x')
   })
 
-  /**
-   * Scrool with ofset on links with a class name .scrollto
-   */
-  on('click', '.scrollto', function(e) {
+  /* Scrool with ofset on links with a class name .scrollto  */
+  on('click', '.scrollto', function (e) {
     if (select(this.hash)) {
       e.preventDefault()
 
@@ -116,9 +99,7 @@ setTimeout(() => {
     }
   }, true)
 
-  /**
-   * Scroll with ofset on page load with hash links in the url
-   */
+  /* Scroll with ofset on page load with hash links in the url */
   window.addEventListener('load', () => {
     if (window.location.hash) {
       if (select(window.location.hash)) {
@@ -127,9 +108,7 @@ setTimeout(() => {
     }
   });
 
-  /**
-   * Hero type effect
-   */
+  /* Hero type effect  */
   const typed = select('.typed')
   if (typed) {
     let typed_strings = typed.getAttribute('data-typed-items')
@@ -143,10 +122,7 @@ setTimeout(() => {
     });
   }
 
-
-  /**
-   * Porfolio isotope and filter
-   */
+  /* Porfolio isotope and filter   */
   window.addEventListener('load', () => {
     let portfolioContainer = select('.portfolio-container');
     if (portfolioContainer) {
@@ -156,9 +132,9 @@ setTimeout(() => {
 
       let portfolioFilters = select('#portfolio-flters li', true);
 
-      on('click', '#portfolio-flters li', function(e) {
+      on('click', '#portfolio-flters li', function (e) {
         e.preventDefault();
-        portfolioFilters.forEach(function(el) {
+        portfolioFilters.forEach(function (el) {
           el.classList.remove('filter-active');
         });
         this.classList.add('filter-active');
@@ -166,24 +142,19 @@ setTimeout(() => {
         portfolioIsotope.arrange({
           filter: this.getAttribute('data-filter')
         });
-        portfolioIsotope.on('arrangeComplete', function() {
+        portfolioIsotope.on('arrangeComplete', function () {
           AOS.refresh()
         });
       }, true);
     }
-
   });
 
-  /**
-   * Initiate portfolio lightbox 
-   */
+  /* Initiate portfolio lightbox   */
   const portfolioLightbox = GLightbox({
     selector: '.portfolio-lightbox'
   });
 
-  /**
-   * Portfolio details slider
-   */
+  /* Portfolio details slider   */
   new Swiper('.portfolio-details-slider', {
     speed: 400,
     loop: true,
@@ -198,9 +169,7 @@ setTimeout(() => {
     }
   });
 
-  /**
-   * Testimonials slider
-   */
+  /* Testimonials slider   */
   new Swiper('.testimonials-slider', {
     speed: 600,
     loop: true,
@@ -227,9 +196,7 @@ setTimeout(() => {
     }
   });
 
-  /**
-   * Animation on scroll
-   */
+  /* Animation on scroll   */
   window.addEventListener('load', () => {
     AOS.init({
       duration: 1000,
@@ -239,9 +206,54 @@ setTimeout(() => {
     })
   });
 
-  /**
-   * Initiate Pure Counter 
-   */
+  /* Initiate Pure Counter   */
   new PureCounter();
+
+
+  /*Clock*/
+  let date = document.getElementById('date')
+  let time = document.getElementById('time')
+  let d, currentDate, currentTime, lastDate, lastTime;
+
+  function tick() {
+    d = new Date()
+
+    currentDate = d.toLocaleDateString('ru', {
+      weekday: 'long',
+      year: 'numeric',
+      month: 'long',
+      day: 'numeric'
+    })
+
+    currentTime = d.toLocaleTimeString('ru', {
+      hour: 'numeric',
+      minute: 'numeric'
+    })
+
+    if (lastDate !== currentDate) {
+      date.textContent = currentDate
+      lastDate = currentDate
+    }
+
+    if (lastTime !== currentTime) {
+      let meridian = currentTime.substr(currentTime.length - 2);
+      time.innerHTML = currentTime.substr(0, currentTime.length - 3) + ':' + meridian;
+      lastTime = currentTime
+    }
+  }
+
+  tick()
+  setInterval(tick, 1000)
+
+  window.transitionToPage = function(href) {
+    document.querySelector('body').style.opacity = 0;
+    setTimeout(function() { 
+        window.location.href = href;
+    }, 2000);
+};
+
+document.addEventListener('DOMContentLoaded', function(event) {
+    document.querySelector('body').style.opacity = 1;
+});
 
 })()
