@@ -5,6 +5,7 @@ body {
     padding: 0;
     -webkit-font-smoothing: antialiased;
     font-size: 1em;
+    background-color: #e6bfc7;
 }
 
 * {
