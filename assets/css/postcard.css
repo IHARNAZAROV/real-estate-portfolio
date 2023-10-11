@@ -166,7 +166,7 @@
 
 .postcard .postcard__tagbox .green.play:hover {
   background: linear-gradient(30deg, rgba(121, 221, 9, .1), transparent 50%);
-  color:#e1e5ea;
+
   
 }
 
@@ -187,7 +187,7 @@
 }
 
 .postcard .postcard__tagbox .blue.play:hover  {
-  color:#e1e5ea;
+  
   background: linear-gradient(-30deg, rgba(0, 118, 189, .1), transparent 50%);
 } 
 
@@ -209,7 +209,7 @@
 
 .postcard .postcard__tagbox .red.play:hover {
 background: linear-gradient(-30deg, rgba(189, 21, 11, .1), transparent 50%);
-  color:#e1e5ea
+  
 }
 
 .red .postcard__title:hover {
@@ -229,7 +229,7 @@ background: linear-gradient(-30deg, rgba(189, 21, 11, .1), transparent 50%);
 }
 
 .postcard .postcard__tagbox .yellow.play:hover {
-  color:#e1e5ea;
+  
   background: linear-gradient(30deg, rgba(189, 21, 11, .1), transparent 50%);
 
 }
