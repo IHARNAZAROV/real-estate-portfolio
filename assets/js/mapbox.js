@@ -36,7 +36,7 @@ var house = {
             "address": "Квартира",
             "city": "Лида    ",
             "country": "Беларусь",
-            "crossStreet": "РыбиновскогоСоветская, д.64, к. 1",
+            "crossStreet": "Рыбиновского, д.64",
 
         }
     },
@@ -44,28 +44,28 @@ var house = {
         "type": "Feature",
         "geometry": {
             "type": "Point",
-            "coordinates": [25.297969, 53.898008
+            "coordinates": [25.308506, 53.896533
             ]
         },
         "properties": {
             "address": "Квартира",
             "city": "Лида    ",
             "country": "Беларусь",
-            "crossStreet": "Советская, д.35",
+            "crossStreet": "Набережная, д.2",
         }
     },
     {
         "type": "Feature",
         "geometry": {
             "type": "Point",
-            "coordinates": [25.280559, 53.880846,
+            "coordinates": [25.258766, 53.896894
             ]
         },
         "properties": {
             "address": "Квартира",
             "city": "Лида    ",
             "country": "Беларусь",
-            "crossStreet": "Коммунистическая, д.43",
+            "crossStreet": "Тухачевского, д.81",
         }
     },
     ]
