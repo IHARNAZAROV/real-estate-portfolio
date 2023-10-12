@@ -1,46 +1,46 @@
 .postcard {
   flex-wrap: wrap;
   display: flex;
-  box-shadow: 0 4px 21px -12px rgba(0, 0, 0, .66);
+  box-shadow: 0 4px 21px -12px rgba(0, 0, 0, 0.66);
   border-radius: 10px;
   margin: 0 0 2rem 0;
   overflow: hidden;
   position: relative;
-  color: #fff
+  color: #fff;
 }
 
 .postcard.light {
-  background-color: #e1e5ea
+  background-color: #e1e5ea;
 }
 
 .postcard .t-dark {
-  color: #18151f
+  color: #18151f;
 }
 
 .postcard a {
-  color: inherit
+  color: inherit;
 }
 
 .postcard .h1,
 .postcard h1 {
-  margin-bottom: .5rem;
+  margin-bottom: 0.5rem;
   font-weight: 500;
-  line-height: 1.2
+  line-height: 1.2;
 }
 
 .postcard .small {
-  font-size: 80%
+  font-size: 80%;
 }
 
 .postcard .postcard__img {
   max-height: 180px;
   width: 100%;
   object-fit: cover;
-  position: relative
+  position: relative;
 }
 
 .postcard .postcard__img_link {
-  display: contents
+  display: contents;
 }
 
 .postcard .postcard__bar {
@@ -49,21 +49,21 @@
   margin: 10px 0;
   border-radius: 5px;
   background-color: #424242;
-  transition: width .2s ease
+  transition: width 0.2s ease;
 }
 
 .postcard .postcard__text {
   padding: 1.5rem;
   position: relative;
   display: flex;
-  flex-direction: column
+  flex-direction: column;
 }
 
 .postcard .postcard__preview-txt {
   overflow: hidden;
   text-overflow: ellipsis;
   text-align: justify;
-  height: 100%
+  height: 100%;
 }
 
 .postcard .postcard__tagbox {
@@ -72,7 +72,7 @@
   font-size: 14px;
   margin: 20px 0 0 0;
   padding: 0;
-  justify-content: center
+  justify-content: center;
 }
 
 .postcard .postcard__tagbox .tag__item {
@@ -82,13 +82,13 @@
   padding: 2.5px 10px;
   margin: 0 5px 5px 0;
   cursor: default;
-  color: #fff ;
+  color: #fff;
   -webkit-user-select: none;
-  transition: background-color .3s
+  transition: background-color 0.3s;
 }
 
 .postcard .postcard__tagbox .tag__item:hover {
-  background: rgba(96, 22, 21, .8)
+  background: rgba(96, 22, 21, 0.8);
 }
 
 .postcard:before {
@@ -100,191 +100,248 @@
   left: 0;
   background-image: linear-gradient(-70deg, #424242, transparent 50%);
   opacity: 1;
-  border-radius: 10px
+  border-radius: 10px;
 }
 
 .postcard:hover .postcard__bar {
-  width: 100px
+  width: 100px;
 }
 
-@media screen and (min-width:769px) {
+@media screen and (min-width: 769px) {
   .postcard {
-    flex-wrap: inherit
+    flex-wrap: inherit;
   }
 
   .postcard .postcard__tagbox {
-    justify-content: start
+    justify-content: start;
   }
 
   .postcard .postcard__img {
     max-width: 300px;
     max-height: 100%;
-    transition: transform .3s ease
+    transition: transform 0.3s ease;
   }
 
   .postcard .postcard__text {
     padding: 3rem;
-    width: 100%
+    width: 100%;
   }
 
   .postcard:hover .postcard__img {
-    transform: scale(1.1)
+    transform: scale(1.1);
   }
 
-  .postcard:nth-child(2n+1) {
-    flex-direction: row
+  .postcard:nth-child(2n + 1) {
+    flex-direction: row;
   }
 
-  .postcard:nth-child(2n+0) {
-    flex-direction: row-reverse
+  .postcard:nth-child(2n + 0) {
+    flex-direction: row-reverse;
   }
 
-  .postcard:nth-child(2n+1) .postcard__text::before {
+  .postcard:nth-child(2n + 1) .postcard__text::before {
     left: -12px !important;
-    transform: rotate(4deg)
+    transform: rotate(4deg);
   }
 
-  .postcard:nth-child(2n+0) .postcard__text::before {
+  .postcard:nth-child(2n + 0) .postcard__text::before {
     right: -12px !important;
-    transform: rotate(-4deg)
+    transform: rotate(-4deg);
   }
 }
 
-@media screen and (min-width:1024px) {
+@media screen and (min-width: 1024px) {
   .postcard__text {
-    padding: 2rem 3.5rem
+    padding: 2rem 3.5rem;
   }
 
   .postcard.dark .postcard__text:before {
-    background: #18151f
+    background: #18151f;
   }
 
   .postcard.light .postcard__text:before {
-    background: #e1e5ea
+    background: #e1e5ea;
   }
 }
 
 .postcard .postcard__tagbox .green.play:hover {
-  background: linear-gradient(30deg, rgba(121, 221, 9, .1), transparent 50%);
-
-  
+  background: linear-gradient(30deg, rgba(121, 221, 9, 0.1), transparent 50%);
 }
 
 .green .postcard__title:hover {
-  color: #79dd09
+  color: #79dd09;
 }
 
 .green .postcard__bar {
-  background-color: #79dd09
+  background-color: #79dd09;
 }
 
 .green::before {
-  background-image: linear-gradient(-30deg, rgba(121, 221, 9, .1), transparent 50%)
+  background-image: linear-gradient(
+    -30deg,
+    rgba(121, 221, 9, 0.1),
+    transparent 50%
+  );
 }
 
 .green:nth-child(2n)::before {
-  background-image: linear-gradient(30deg, rgba(121, 221, 9, .1), transparent 50%)
+  background-image: linear-gradient(
+    30deg,
+    rgba(121, 221, 9, 0.1),
+    transparent 50%
+  );
 }
 
-.postcard .postcard__tagbox .blue.play:hover  {
-  
-  background: linear-gradient(-30deg, rgba(0, 118, 189, .1), transparent 50%);
-} 
+.postcard .postcard__tagbox .blue.play:hover {
+  background: linear-gradient(-30deg, rgba(0, 118, 189, 0.1), transparent 50%);
+}
 
 .blue .postcard__title:hover {
-  color: #0076bd
+  color: #0076bd;
 }
 
 .blue .postcard__bar {
-  background-color: #0076bd
+  background-color: #0076bd;
 }
 
 .blue::before {
-  background-image: linear-gradient(-30deg, rgba(0, 118, 189, .1), transparent 50%)
+  background-image: linear-gradient(
+    -30deg,
+    rgba(0, 118, 189, 0.1),
+    transparent 50%
+  );
 }
 
 .blue:nth-child(2n)::before {
-  background-image: linear-gradient(30deg, rgba(0, 118, 189, .1), transparent 50%)
+  background-image: linear-gradient(
+    30deg,
+    rgba(0, 118, 189, 0.1),
+    transparent 50%
+  );
 }
 
 .postcard .postcard__tagbox .red.play:hover {
-background: linear-gradient(-30deg, rgba(189, 21, 11, .1), transparent 50%);
-  
+  background: linear-gradient(-30deg, rgba(189, 21, 11, 0.1), transparent 50%);
 }
 
 .red .postcard__title:hover {
-  color: #bd150b
+  color: #bd150b;
 }
 
 .red .postcard__bar {
-  background-color: #bd150b
+  background-color: #bd150b;
 }
 
 .red::before {
-  background-image: linear-gradient(-30deg, rgba(189, 21, 11, .1), transparent 50%)
+  background-image: linear-gradient(
+    -30deg,
+    rgba(189, 21, 11, 0.1),
+    transparent 50%
+  );
 }
 
 .red:nth-child(2n)::before {
-  background-image: linear-gradient(30deg, rgba(189, 21, 11, .1), transparent 50%)
+  background-image: linear-gradient(
+    30deg,
+    rgba(189, 21, 11, 0.1),
+    transparent 50%
+  );
 }
 
 .postcard .postcard__tagbox .yellow.play:hover {
-  
-  background: linear-gradient(30deg, rgba(189, 21, 11, .1), transparent 50%);
-
+  background: linear-gradient(30deg, rgba(189, 21, 11, 0.1), transparent 50%);
 }
 
 .yellow .postcard__title:hover {
-  color: #bdbb49
+  color: #bdbb49;
 }
 
 .yellow .postcard__bar {
-  background-color: #bdbb49
+  background-color: #bdbb49;
 }
 
 .yellow::before {
-  background-image: linear-gradient(-30deg, rgba(189, 187, 73, .1), transparent 50%)
+  background-image: linear-gradient(
+    -30deg,
+    rgba(189, 187, 73, 0.1),
+    transparent 50%
+  );
 }
 
 .yellow:nth-child(2n)::before {
-  background-image: linear-gradient(30deg, rgba(189, 187, 73, .1), transparent 50%)
+  background-image: linear-gradient(
+    30deg,
+    rgba(189, 187, 73, 0.1),
+    transparent 50%
+  );
 }
 
-@media screen and (min-width:769px) {
+@media screen and (min-width: 769px) {
   .green::before {
-    background-image: linear-gradient(-80deg, rgba(121, 221, 9, .1), transparent 50%)
+    background-image: linear-gradient(
+      -80deg,
+      rgba(121, 221, 9, 0.1),
+      transparent 50%
+    );
   }
 
   .green:nth-child(2n)::before {
-    background-image: linear-gradient(80deg, rgba(121, 221, 9, .1), transparent 50%)
+    background-image: linear-gradient(
+      80deg,
+      rgba(121, 221, 9, 0.1),
+      transparent 50%
+    );
   }
 
   .blue::before {
-    background-image: linear-gradient(-80deg, rgba(0, 118, 189, .1), transparent 50%)
+    background-image: linear-gradient(
+      -80deg,
+      rgba(0, 118, 189, 0.1),
+      transparent 50%
+    );
   }
 
   .blue:nth-child(2n)::before {
-    background-image: linear-gradient(80deg, rgba(0, 118, 189, .1), transparent 50%)
+    background-image: linear-gradient(
+      80deg,
+      rgba(0, 118, 189, 0.1),
+      transparent 50%
+    );
   }
 
   .red::before {
-    background-image: linear-gradient(-80deg, rgba(189, 21, 11, .1), transparent 50%)
+    background-image: linear-gradient(
+      -80deg,
+      rgba(189, 21, 11, 0.1),
+      transparent 50%
+    );
   }
 
   .red:nth-child(2n)::before {
-    background-image: linear-gradient(80deg, rgba(189, 21, 11, .1), transparent 50%)
+    background-image: linear-gradient(
+      80deg,
+      rgba(189, 21, 11, 0.1),
+      transparent 50%
+    );
   }
 
   .yellow::before {
-    background-image: linear-gradient(-80deg, rgba(189, 187, 73, .1), transparent 50%)
+    background-image: linear-gradient(
+      -80deg,
+      rgba(189, 187, 73, 0.1),
+      transparent 50%
+    );
   }
 
   .yellow:nth-child(2n)::before {
-    background-image: linear-gradient(80deg, rgba(189, 187, 73, .1), transparent 50%)
+    background-image: linear-gradient(
+      80deg,
+      rgba(189, 187, 73, 0.1),
+      transparent 50%
+    );
   }
 }
 
 .tag__item {
-  color: #fff
+  color: #fff;
 }
-
