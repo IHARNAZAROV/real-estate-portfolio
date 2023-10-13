@@ -91,7 +91,7 @@ var house = {
 				"crossStreet": "Лизы Чайкиной",
 			}
 		},
-		{
+/* 		{
 			"type": "Feature",
 			"geometry": {
 				"type": "Point",
@@ -103,7 +103,7 @@ var house = {
 				"country": "Беларусь",
 				"crossStreet": "пр. Победы, д.1",
 			}
-		},
+		}, */
 	]
 };
 // This adds the data to the map
