@@ -78,6 +78,19 @@ var house = {
 				"crossStreet": "И.Домейко, д.9",
 			}
 		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [25.280047,53.884503 ]
+			},
+			"properties": {
+				"address": "2-комнатная квартира",
+				"city": "Лида    ",
+				"country": "Беларусь",
+				"crossStreet": "Лизы Чайкиной",
+			}
+		},
 	]
 };
 // This adds the data to the map
