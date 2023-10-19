@@ -39,7 +39,7 @@ var house = {
 
 			}
 		},
-		{
+/* 		{
 			"type": "Feature",
 			"geometry": {
 				"type": "Point",
@@ -51,8 +51,8 @@ var house = {
 				"country": "Беларусь",
 				"crossStreet": "Набережная, д.2",
 			}
-		},
-		{
+		}, */
+/* 		{
 			"type": "Feature",
 			"geometry": {
 				"type": "Point",
@@ -64,7 +64,7 @@ var house = {
 				"country": "Беларусь",
 				"crossStreet": "Тухачевского, д.81",
 			}
-		},
+		}, */
 		{
 			"type": "Feature",
 			"geometry": {
