@@ -39,32 +39,32 @@ var house = {
 
 			}
 		},
-/* 		{
+		{
 			"type": "Feature",
 			"geometry": {
 				"type": "Point",
-				"coordinates": [25.308506, 53.896533]
-			},
-			"properties": {
-				"address": "2-комнатная квартира",
-				"city": "Лида    ",
-				"country": "Беларусь",
-				"crossStreet": "Набережная, д.2",
-			}
-		}, */
-/* 		{
-			"type": "Feature",
-			"geometry": {
-				"type": "Point",
-				"coordinates": [25.258766, 53.896894]
+				"coordinates": [25.290495, 53.876340]
 			},
 			"properties": {
 				"address": "3-комнатная квартира",
 				"city": "Лида    ",
 				"country": "Беларусь",
-				"crossStreet": "Тухачевского, д.81",
+				"crossStreet": "3-й переулок Плеханова",
 			}
-		}, */
+		}, 
+	{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [25.282482,53.876563]
+			},
+			"properties": {
+				"address": "2-комнатная квартира",
+				"city": "Лида    ",
+				"country": "Беларусь",
+				"crossStreet": "Машерова, д.9 к.1",
+			}
+		}, 
 		{
 			"type": "Feature",
 			"geometry": {
