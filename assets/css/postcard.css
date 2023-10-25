@@ -11,7 +11,12 @@ body {
   color: #272829;
   background-color: #e6bfc7;
 }
-
+.header img {
+  float: left;
+  width: 300px;
+  height: 120px;
+  background: #e6bfc7;
+}
 a {
   color: #922858;
   text-decoration: none;
