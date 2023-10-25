@@ -2,7 +2,6 @@
 @import url(/assets/css/loading.css);
 @import url(/assets/css/contact.css);
 @import url(/assets/css/faq.css);
-@import url(/assets/css/postcard.css);
 @import url(/assets/css/testimonials.css);
 @import url(/assets/css/gallery.css);
 @import url(/assets/css/timeline.css);
@@ -34,6 +33,12 @@ a:hover {
   color: #822e46;
   text-decoration: none;
   transform: scale(1.1);
+}
+
+.waves-effect {
+  text-decoration: none;
+  cursor: pointer;
+  color: #e6bfc7;
 }
 
 .back-to-top {
@@ -704,4 +709,67 @@ section {
   text-decoration: none;
   font-weight: 500;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.container-pulse {
+  width: 200px;
+  height: 30%;
+  margin: 0 auto 0;
+  -webkit-perspective: 1000;
+  -webkit-backface-visibility: hidden;
+}
+
+.pulse-button {
+  position: relative;
+  top: 50%;
+  left: 30%;
+  margin-left: -50px;
+  margin-top: -50px;
+  display: block;
+  width: 150px;
+  height: 150px;
+  font-size: 1.3em;
+  font-weight: light;
+  font-family: Rubik, sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 80px;
+  letter-spacing: -1px;
+  color: #d3b1c2;
+  border: none;
+  border-radius: 50%;
+  background: #601615;
+  cursor: pointer;
+  box-shadow: 0 0 0 0 rgba(90, 153, 212, 0.5);
+  -webkit-animation: pulse 1.5s infinite;
+}
+
+.pulse-button:hover {
+  -webkit-animation: none;
+  color: #d3b1c2;
+}
+
+@-webkit-keyframes pulse {
+  0% {
+    -moz-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+
+  70% {
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    box-shadow: 0 0 0 50px rgba(90, 153, 212, 0);
+  }
+
+  100% {
+    -moz-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+    box-shadow: 0 0 0 0 rgba(90, 153, 212, 0);
+  }
 }
