@@ -39,7 +39,7 @@ var house = {
 
 			}
 		},
-/* 		{
+		{
 			"type": "Feature",
 			"geometry": {
 				"type": "Point",
@@ -51,7 +51,7 @@ var house = {
 				"country": "Беларусь",
 				"crossStreet": "3-й переулок Плеханова",
 			}
-		},  */
+		},  
 	{
 			"type": "Feature",
 			"geometry": {
