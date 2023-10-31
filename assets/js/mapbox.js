@@ -91,19 +91,19 @@ var house = {
 				"crossStreet": "Лизы Чайкиной",
 			}
 		},
-/* 		{
+	{
 			"type": "Feature",
 			"geometry": {
 				"type": "Point",
-				"coordinates": [25.294968,53.897700 ]
+				"coordinates": [25.343621, 53.875825]
 			},
 			"properties": {
 				"address": "2-комнатная квартира",
 				"city": "Лида    ",
 				"country": "Беларусь",
-				"crossStreet": "пр. Победы, д.1",
+				"crossStreet": "улица Южный Городок, 11",
 			}
-		}, */
+		}, 
 	]
 };
 // This adds the data to the map
