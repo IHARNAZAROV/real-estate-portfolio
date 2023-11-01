@@ -51,7 +51,20 @@ var house = {
 				"country": "Беларусь",
 				"crossStreet": "3-й переулок Плеханова",
 			}
-		},  
+		}, 
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [25.392813,53.995556 ]
+			},
+			"properties": {
+				"address": "3-комнатная квартира",
+				"city": "Дворище    ",
+				"country": "Беларусь",
+				"crossStreet": "Луговая, д.1",
+			}
+		}, 
 	{
 			"type": "Feature",
 			"geometry": {
@@ -101,7 +114,7 @@ var house = {
 				"address": "2-комнатная квартира",
 				"city": "Лида    ",
 				"country": "Беларусь",
-				"crossStreet": "улица Южный Городок, 11",
+				"crossStreet": "Южный Городок, 11",
 			}
 		}, 
 	]
