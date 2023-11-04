@@ -525,7 +525,7 @@ section {
   width: 100%;
   position: relative;
   background-size: top cover;
-  background-position: 40% 47%;
+  background-position: 40% 25%;
 }
 
 #hero:before {
@@ -562,7 +562,9 @@ section {
   #hero .reveal {
     font-size: 0.7em;
     margin-left: 30px;
+    margin-bottom: -90%;
     pointer-events: none;
+    color: #fff;
   }
 }
 
