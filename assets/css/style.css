@@ -431,7 +431,7 @@ section {
   color: #601615;
   -webkit-transition: all 0.4s;
   transition: all 0.4s;
-  margin: 0 0 10px 0;
+  margin: 40% 0 10px 0;
   font-size: 64px;
   font-weight: 700;
   line-height: 56px;
@@ -514,10 +514,18 @@ section {
 }
 
 #hero {
-  width: 100%;
+ 
+  background: url(../img/hero-bg.webp);
+	background-repeat: no-repeat;
+	background-size: cover;
+ /* needed to prevent janky scrolling in Safari */
+  backface-visibility: hidden;
+  /* 100% height of the viewport */
   height: 100vh;
-  background: url(../img/hero-bg.webp) top center;
-  background-size: cover;
+  width: 100%;
+  position: relative;
+  background-size: top cover;
+  background-position: 40% 47%;
 }
 
 #hero:before {
@@ -734,7 +742,7 @@ logo-slider {
 	width: 100%;
 }
 
-.logo-slider::before, .logo-slider::after {
+/* .logo-slider::before, .logo-slider::after {
 	background: -webkit-gradient(linear, left top, right top, from(white), to(rgba(255, 255, 255, 0)));
 	background: linear-gradient(to right, white 0%, rgba(255, 255, 255, 0) 100%);
 	content: "";
@@ -742,7 +750,7 @@ logo-slider {
 	position: absolute;
 	width: 200px;
 	z-index: 2;
-}
+} */
 
 .logo-slider::after {
 	right: 0;
