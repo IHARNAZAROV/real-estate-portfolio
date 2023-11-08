@@ -271,6 +271,9 @@ section {
   margin-bottom: 0;
 }
 
+.hero{
+  padding: 0;
+}
 .about .content h3 {
   font-weight: 700;
   font-size: 26px;
@@ -513,7 +516,7 @@ section {
   transform: translateX(-50%) scale(1);
 }
 
-#hero {
+/* #hero {
  
   background: url(../img/hero-bg.webp);
 	background-repeat: no-repeat;
@@ -526,7 +529,7 @@ section {
   position: relative;
   background-size: top cover;
   background-position: 40% 25%;
-}
+/* }
 
 #hero:before {
   content: "";
@@ -537,14 +540,14 @@ section {
   left: 0;
   right: 0;
   z-index: 1;
-}
+} */ */
 
-#hero .hero-container {
+/* #hero .hero-container {
   position: relative;
   z-index: 2;
-  min-width: 300px;
+  min-width: 600px;
 }
-
+ */
 #hero .reveal p span {
   color: #fff;
   padding-bottom: 4px;
@@ -552,11 +555,11 @@ section {
   border-bottom: 3px solid #0a0531;
 }
 
-@media (min-width: 1024px) {
+/* @media (min-width: 1024px) {
   #hero {
     background-attachment: fixed;
   }
-}
+} */
 
 @media (max-width: 768px) {
   #hero .reveal {
@@ -805,4 +808,89 @@ logo-slider {
 		-webkit-transform: translateX(calc(-250px * 7));
 		transform: translateX(calc(-250px * 7));
 	}
+}
+
+
+.hero-slider {
+
+  height: 100vh;
+  width:100%;
+  overflow: hidden;
+}
+.hero-slider .carousel-cell {
+	background-repeat: no-repeat;
+	background-size: cover;
+ /* needed to prevent janky scrolling in Safari */
+  backface-visibility: hidden;
+  /* 100% height of the viewport */
+  height: 100vh;
+  width: 100%;
+  position: relative;
+}
+
+.hero-slider .carousel-cell .inner {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  color: white;
+  text-align: center;
+}
+.hero-slider .carousel-cell .inner .subtitle {
+  font-family: "Roboto Slab", serif;
+  font-size: 2.2rem;
+  line-height: 1.2em;
+  font-weight: 200;
+  font-style: italic;
+  letter-spacing: 3px;
+  color: rgba(255, 255, 255, 0.5);
+  margin-bottom: 5px;
+}
+.hero-slider .carousel-cell .inner .title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 3rem;
+  line-height: 1.2em;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  margin-bottom: 40px;
+}
+.hero-slider .carousel-cell .inner .btn {
+  border: 1px solid #fff;
+  padding: 14px 18px;
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.8rem;
+  letter-spacing: 3px;
+  color: #fff;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+.hero-slider .carousel-cell .inner .btn:hover {
+  background: #fff;
+  color: #000;
+}
+.hero-slider .flickity-prev-next-button {
+  width: 80px;
+  height: 80px;
+  background: transparent;
+}
+.hero-slider .flickity-prev-next-button:hover {
+  background: transparent;
+}
+.hero-slider .flickity-prev-next-button .arrow {
+  fill: white;
+}
+.hero-slider .flickity-page-dots {
+  bottom: 30px;
+}
+.hero-slider .flickity-page-dots .dot {
+  width: 30px;
+  height: 4px;
+  opacity: 1;
+  background: rgba(255, 255, 255, 0.5);
+  border: 0 solid white;
+  border-radius: 0;
+}
+.hero-slider .flickity-page-dots .dot.is-selected {
+  background: #ff0000;
+  border: 0 solid #ff0000;
 }
