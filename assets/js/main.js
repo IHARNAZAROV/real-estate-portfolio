@@ -29,35 +29,37 @@
     }
   };
 
-
-  var options = {
-    accessibility: true,
-    prevNextButtons: false,
-    pageDots: true,
-    setGallerySize: true,
-    arrowShape: {
-      x0: 10,
-      x1: 60,
-      y1: 50,
-      x2: 60,
-      y2: 45,
-      x3: 15
-    }
-  };
+  const sliderContainer = document.querySelector('.slider-container')
+  const slideRight = document.querySelector('.right-slide')
+  const slideLeft = document.querySelector('.left-slide')
+  const upButton = document.querySelector('.up-button')
+  const downButton = document.querySelector('.down-button')
+  const slidesLength = slideRight.querySelectorAll('div').length
   
-  var carousel = document.querySelector('[data-carousel]');
-  var slides = document.getElementsByClassName('carousel-cell');
-  var flkty = new Flickity(carousel, options);
+  let activeSlideIndex = 0
   
-  flkty.on('scroll', function () {
-    flkty.slides.forEach(function (slide, i) {
-      var image = slides[i];
-      var x = (slide.target + flkty.x) * -1/3;
-      image.style.backgroundPosition = x + 'px';
-
-    });
-  });
-
+  slideLeft.style.top = `-${(slidesLength - 1) * 100}vh`
+  
+  upButton.addEventListener('click', () => changeSlide('up'))
+  downButton.addEventListener('click', () => changeSlide('down'))
+  
+  const changeSlide = (direction) => {
+      const sliderHeight = sliderContainer.clientHeight
+      if(direction === 'up') {
+          activeSlideIndex++
+          if(activeSlideIndex > slidesLength - 1) {
+              activeSlideIndex = 0
+          }
+      } else if(direction === 'down') {
+          activeSlideIndex--
+          if(activeSlideIndex < 0) {
+              activeSlideIndex = slidesLength - 1
+          }
+      }
+  
+      slideRight.style.transform = `translateY(-${activeSlideIndex * sliderHeight}px)`
+      slideLeft.style.transform = `translateY(${activeSlideIndex * sliderHeight}px)`
+  }
 
   /* Easy on scroll event listener   */
   const onscroll = (el, listener) => {
