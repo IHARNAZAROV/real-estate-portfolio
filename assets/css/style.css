@@ -631,6 +631,7 @@ header {
 .small {
   display: flex;
   align-self: center;
+  flex-flow: row wrap;
 }
 
 .small a {
