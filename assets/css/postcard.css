@@ -1,4 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat);
+
 @font-face {
   font-family: tangak;
   src: url(/assets/fonts/tangak.ttf) format("truetype"),
@@ -11,12 +12,14 @@ body {
   color: #272829;
   background-color: #e6bfc7;
 }
+
 .header img {
   float: left;
   width: 300px;
   height: 120px;
   background: #e6bfc7;
 }
+
 a {
   color: #922858;
   text-decoration: none;
@@ -273,19 +276,15 @@ section {
 }
 
 .green::before {
-  background-image: linear-gradient(
-    -30deg,
-    rgba(121, 221, 9, 0.1),
-    transparent 50%
-  );
+  background-image: linear-gradient(-30deg,
+      rgba(121, 221, 9, 0.1),
+      transparent 50%);
 }
 
 .green:nth-child(2n)::before {
-  background-image: linear-gradient(
-    30deg,
-    rgba(121, 221, 9, 0.1),
-    transparent 50%
-  );
+  background-image: linear-gradient(30deg,
+      rgba(121, 221, 9, 0.1),
+      transparent 50%);
 }
 
 .postcard .postcard__tagbox .blue.play:hover {
@@ -301,19 +300,15 @@ section {
 }
 
 .blue::before {
-  background-image: linear-gradient(
-    -30deg,
-    rgba(0, 118, 189, 0.1),
-    transparent 50%
-  );
+  background-image: linear-gradient(-30deg,
+      rgba(0, 118, 189, 0.1),
+      transparent 50%);
 }
 
 .blue:nth-child(2n)::before {
-  background-image: linear-gradient(
-    30deg,
-    rgba(0, 118, 189, 0.1),
-    transparent 50%
-  );
+  background-image: linear-gradient(30deg,
+      rgba(0, 118, 189, 0.1),
+      transparent 50%);
 }
 
 .postcard .postcard__tagbox .red.play:hover {
@@ -329,19 +324,15 @@ section {
 }
 
 .red::before {
-  background-image: linear-gradient(
-    -30deg,
-    rgba(189, 21, 11, 0.1),
-    transparent 50%
-  );
+  background-image: linear-gradient(-30deg,
+      rgba(189, 21, 11, 0.1),
+      transparent 50%);
 }
 
 .red:nth-child(2n)::before {
-  background-image: linear-gradient(
-    30deg,
-    rgba(189, 21, 11, 0.1),
-    transparent 50%
-  );
+  background-image: linear-gradient(30deg,
+      rgba(189, 21, 11, 0.1),
+      transparent 50%);
 }
 
 .postcard .postcard__tagbox .yellow.play:hover {
@@ -357,84 +348,64 @@ section {
 }
 
 .yellow::before {
-  background-image: linear-gradient(
-    -30deg,
-    rgba(189, 187, 73, 0.1),
-    transparent 50%
-  );
+  background-image: linear-gradient(-30deg,
+      rgba(189, 187, 73, 0.1),
+      transparent 50%);
 }
 
 .yellow:nth-child(2n)::before {
-  background-image: linear-gradient(
-    30deg,
-    rgba(189, 187, 73, 0.1),
-    transparent 50%
-  );
+  background-image: linear-gradient(30deg,
+      rgba(189, 187, 73, 0.1),
+      transparent 50%);
 }
 
 @media screen and (min-width: 769px) {
   .green::before {
-    background-image: linear-gradient(
-      -80deg,
-      rgba(121, 221, 9, 0.1),
-      transparent 50%
-    );
+    background-image: linear-gradient(-80deg,
+        rgba(121, 221, 9, 0.1),
+        transparent 50%);
   }
 
   .green:nth-child(2n)::before {
-    background-image: linear-gradient(
-      80deg,
-      rgba(121, 221, 9, 0.1),
-      transparent 50%
-    );
+    background-image: linear-gradient(80deg,
+        rgba(121, 221, 9, 0.1),
+        transparent 50%);
   }
 
   .blue::before {
-    background-image: linear-gradient(
-      -80deg,
-      rgba(0, 118, 189, 0.1),
-      transparent 50%
-    );
+    background-image: linear-gradient(-80deg,
+        rgba(0, 118, 189, 0.1),
+        transparent 50%);
   }
 
   .blue:nth-child(2n)::before {
-    background-image: linear-gradient(
-      80deg,
-      rgba(0, 118, 189, 0.1),
-      transparent 50%
-    );
+    background-image: linear-gradient(80deg,
+        rgba(0, 118, 189, 0.1),
+        transparent 50%);
   }
 
   .red::before {
-    background-image: linear-gradient(
-      -80deg,
-      rgba(189, 21, 11, 0.1),
-      transparent 50%
-    );
+    background-image: linear-gradient(-80deg,
+        rgba(189, 21, 11, 0.1),
+        transparent 50%);
   }
 
   .red:nth-child(2n)::before {
-    background-image: linear-gradient(
-      80deg,
-      rgba(189, 21, 11, 0.1),
-      transparent 50%
-    );
+    background-image: linear-gradient(80deg,
+        rgba(189, 21, 11, 0.1),
+        transparent 50%);
   }
 
   .yellow::before {
-    background-image: linear-gradient(
-      -80deg,
-      rgba(189, 187, 73, 0.1),
-      transparent 50%
-    );
+    background-image: linear-gradient(-80deg,
+        rgba(189, 187, 73, 0.1),
+        transparent 50%);
   }
 
   .yellow:nth-child(2n)::before {
-    background-image: linear-gradient(
-      80deg,
-      rgba(189, 187, 73, 0.1),
-      transparent 50%
-    );
+    background-image: linear-gradient(80deg,
+        rgba(189, 187, 73, 0.1),
+        transparent 50%);
   }
 }
 
@@ -448,6 +419,7 @@ body .header {
   padding: 20px 15%;
   box-shadow: 0 1px 15px -5px gray;
 }
+
 body .header .header__title {
   float: left;
   text-decoration: none;
@@ -455,9 +427,11 @@ body .header .header__title {
   font-size: 34px;
   font-family: tangak;
 }
+
 body .header .header__cta {
   float: right;
 }
+
 body .header .header__cta .header__cta--button {
   border: none;
   border-radius: 7px;
@@ -473,28 +447,45 @@ body .header .header__cta .header__cta--button {
   font-family: "Allerta Stencil", sans-serif;
   outline: none;
 }
+
 body .header .header__cta .header__cta--button:hover {
   box-shadow: 0px 2px 2px rgba(34, 62, 66, 0.5);
   cursor: pointer;
 }
+
 @media screen and (max-width: 720px) {
   body .header__title {
     width: 100%;
     margin: 0 auto;
     text-align: center;
   }
+
   body .header__cta {
     width: 100%;
     margin: 20px auto;
     text-align: center;
   }
+
   body .header__cta .header__cta--button {
     margin-top: 10px;
   }
+
+  .msg-container.investments {
+    top: 35%;
+    left: 10%;
+    font-size: 2.4rem;
+  }
 }
+
 @media screen and (max-width: 420px) {
   body .header__cta--button {
     margin-left: 0 !important;
+  }
+
+  .msg-container.investments {
+    top: 35%;
+    left: 10%;
+    font-size: 2.4rem;
   }
 }
 
@@ -520,4 +511,41 @@ body .header .header__cta .header__cta--button:hover {
 
 #filterable-cards .card.hide {
   display: none;
+}
+
+.msg-container {
+  min-width: 300px;
+  height: 100px;
+  background-color: rgb(255, 255, 255, 1);
+  border-radius: 10px;
+  filter: drop-shadow(0 4px 8px #555);
+  justify-content: center;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 1.6rem;
+  flex-shrink: 0;
+  display: flex;
+  opacity: 0.95;
+  transition: all 0.3s;
+  font-family: Rubik, sans-serif;
+  color: #601615;
+  font-weight: 800;
+  cursor: default;
+
+}
+
+
+.msg-container:hover {
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+
+.msg-container.investments {
+  top: 35%;
+  left: 50%;
+  font-size: 2.4rem;
 }

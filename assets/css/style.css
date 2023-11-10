@@ -46,6 +46,7 @@ section {
   overflow: hidden;
   width: 100%;
 }
+.herotext{color:#601615}
 
 .section-bg {
   background: #e6bfc7;
@@ -405,7 +406,7 @@ section {
 }
 
 .left-slide h1 {
-  font-size: 40px;
+  font-size: 2em;
   margin-bottom: 10px;
   margin-top: -30px;
 }
@@ -468,6 +469,9 @@ button:focus {
     width: 100%;
     margin: 0;
   }
+  .herotextA { writing-mode: vertical-lr; 
+    text-orientation: upright; }
+  
 }
 
 @media (max-width: 1199px) {
@@ -475,6 +479,8 @@ button:focus {
     width: 100%;
     margin: 0;
   }
+  .herotextA { writing-mode: vertical-lr; 
+    text-orientation: upright; }
 }
 
 @media (min-width: 1024px) {
