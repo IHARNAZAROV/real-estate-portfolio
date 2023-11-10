@@ -103,10 +103,6 @@
     });
   });
 
-  /* Initiate Pure Counter   */
-  new PureCounter();
-
-
 
   window.transitionToPage = function (href) {
     document.querySelector("body").style.opacity = 0;
