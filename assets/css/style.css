@@ -515,7 +515,7 @@ section {
 
 #hero {
  
-  background: url(../img/hero-bg.webp);
+  background: url(../img/1.png);
 	background-repeat: no-repeat;
 	background-size: cover;
  /* needed to prevent janky scrolling in Safari */
