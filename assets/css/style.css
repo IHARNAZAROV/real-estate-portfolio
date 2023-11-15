@@ -546,11 +546,7 @@ header {
   color: #e6bfc7;
 }
 
-@media (max-width: 768px) {
-  .headerTitle {
-    display: none;
-  }
-}
+
 
 button.learn-more {
   width: 12rem;
@@ -572,7 +568,7 @@ button.learn-more .circle {
   transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
   position: relative;
   display: block;
-  margin: 0;
+  /* margin: 0; */
   width: 3rem;
   height: 3rem;
   background: #d3b1c2;
@@ -616,7 +612,7 @@ button.learn-more .button-text {
   right: 0;
   bottom: 0;
   padding: 0.75rem 0;
-  margin: 0 0 0 1.85rem;
+  /* margin: 0 0 0 1.85rem; */
   color: #fff;
   font-weight: 700;
   line-height: 1.6;
@@ -647,8 +643,6 @@ button:hover .button-text {
 
 .single-hs-item {
   height: 40em;
-  /* background-size: cover;
-  background-position: center center; */
   position: relative;
 }
 
@@ -692,15 +686,19 @@ button:hover .button-text {
 
 .hero-text h1 {
   color: #fff;
-  font-size: 50px;
   text-transform: capitalize;
   font-weight: 600;
   margin: 0;
+  font-size: 5rem;
+  font-family: tangak;
+  font-style: normal;
 }
+
+.herotext1{padding-top:18%}
 
 .hero-text p {
   color: #fff;
-  font-size: 17px;
+  font-size: 2rem;
   max-width: 600px;
   margin-left: auto;
   margin-right: auto;
@@ -724,7 +722,7 @@ button:hover .button-text {
 }
 
 .owl-carousel .owl-nav button.owl-prev {
-  background-color: #ff3547;
+  background-color: #601615;
   position: absolute;
   left: 0;
   top: 50%;
@@ -737,7 +735,7 @@ button:hover .button-text {
 }
 
 .owl-carousel .owl-nav button.owl-next {
-  background-color: #ff3547;
+  background-color: #601615;
   position: absolute;
   right: 0;
   top: 50%;
@@ -767,7 +765,7 @@ button:hover .button-text {
 
 .owl-theme .owl-dots .owl-dot.active span,
 .owl-theme .owl-dots .owl-dot:hover span {
-  background: #ff3547;
+  background: #601615;
 }
 
 @media only screen and (max-width: 600px) {
@@ -777,6 +775,7 @@ button:hover .button-text {
 
   .hero-text h1 {
     font-size: 30px;
+    padding-top:58%;
   }
 
   .hero-text p {
@@ -801,6 +800,7 @@ button:hover .button-text {
     left: 50px;
     right: 50px;
   }
+  .herotext1{padding-top:18%}
 }
 
 
@@ -816,9 +816,9 @@ button:hover .button-text {
 }
 
 .custom-btn1 {
-  background-color: #ff3547;
+  background-color: #601615;
   color: #fff;
-  border: 1px solid #ff3547;
+  border: 1px solid #601615;
   display: inline-block;
   padding: 12px 30px;
   text-transform: uppercase;
@@ -832,4 +832,12 @@ button:hover .button-text {
   color: #fff;
 }
 
-/*
+@media (max-width: 768px) {
+  .headerTitle {
+    display: none;
+  }
+  .headerPhone{margin-left:15%}
+  .button.learn-more{margin-left:40%}
+  .button-text{margin-left:40%}
+  .circle{margin-left:21%}
+}
