@@ -646,9 +646,9 @@ button:hover .button-text {
 }
 
 .single-hs-item {
-  height: 700px;
-  background-size: cover;
-  background-position: center center;
+  height: 40em;
+  /* background-size: cover;
+  background-position: center center; */
   position: relative;
 }
 
@@ -664,15 +664,21 @@ button:hover .button-text {
 }
 
 .item-bg1 {
-  background-image: url(/assets/img/gallery/1.webp);
+  background-image: url(/assets/img/1.webp);
+  background-position: center;
+  background-size: cover;
 }
 
 .item-bg2 {
-  background-image: url(/assets/img/gallery/3.webp);
+  background-image: url(/assets/img/2.webp);
+  background-position: cover center;
+  background-size: cover;
 }
 
 .item-bg3 {
-  background-image: url(/assets/img/gallery/4.webp);
+  background-image: url(/assets/img/3.webp);
+  background-position: center cover;
+  background-size: cover;
 }
 
 .hero-text {
