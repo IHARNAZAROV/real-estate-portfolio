@@ -694,7 +694,9 @@ button:hover .button-text {
   font-style: normal;
 }
 
-.herotext1{padding-top:18%}
+.herotext1 {
+  padding-top: 18%
+}
 
 .hero-text p {
   color: #fff;
@@ -775,7 +777,7 @@ button:hover .button-text {
 
   .hero-text h1 {
     font-size: 30px;
-    padding-top:58%;
+    padding-top: 58%;
   }
 
   .hero-text p {
@@ -800,7 +802,10 @@ button:hover .button-text {
     left: 50px;
     right: 50px;
   }
-  .herotext1{padding-top:18%}
+
+  .herotext1 {
+    padding-top: 18%
+  }
 }
 
 
@@ -836,8 +841,29 @@ button:hover .button-text {
   .headerTitle {
     display: none;
   }
-  .headerPhone{margin-left:15%}
-  .button.learn-more{margin-left:40%}
-  .button-text{margin-left:40%}
-  .circle{margin-left:21%}
+
+  .HeaderPhoneTitle {
+    margin-left: 13%
+  }
+
+  .button.learn-more {
+    margin-left: 40%
+  }
+
+  .button-text {
+    margin-left: 40%
+  }
+
+  .circle {
+    margin-left: 21%
+  }
+}
+
+.headerPhone {
+  color: #fff;
+  margin-left: 10px
+}
+
+.headerPhone:hover {
+  color: #fff;
 }
