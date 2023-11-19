@@ -108,13 +108,13 @@ let house = {
 			"type": "Feature",
 			"geometry": {
 				"type": "Point",
-				"coordinates": [25.259458,53.905090]
+				"coordinates": [25.284925, 53.876568]
 			},
 			"properties": {
-				"address": "1-комнатная квартира",
+				"address": "3-комнатная квартира",
 				"city": "Лида    ",
 				"country": "Беларусь",
-				"crossStreet": "Гастелло, д.44",
+				"crossStreet": "Машерова, д.11к4",
 			}
 		}, 
 		{
