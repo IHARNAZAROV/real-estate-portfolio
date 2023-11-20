@@ -276,15 +276,19 @@ section {
 }
 
 .green::before {
-  background-image: linear-gradient(-30deg,
-      rgba(121, 221, 9, 0.1),
-      transparent 50%);
+  background-image: linear-gradient(
+    -30deg,
+    rgba(121, 221, 9, 0.1),
+    transparent 50%
+  );
 }
 
 .green:nth-child(2n)::before {
-  background-image: linear-gradient(30deg,
-      rgba(121, 221, 9, 0.1),
-      transparent 50%);
+  background-image: linear-gradient(
+    30deg,
+    rgba(121, 221, 9, 0.1),
+    transparent 50%
+  );
 }
 
 .postcard .postcard__tagbox .blue.play:hover {
@@ -300,15 +304,19 @@ section {
 }
 
 .blue::before {
-  background-image: linear-gradient(-30deg,
-      rgba(0, 118, 189, 0.1),
-      transparent 50%);
+  background-image: linear-gradient(
+    -30deg,
+    rgba(0, 118, 189, 0.1),
+    transparent 50%
+  );
 }
 
 .blue:nth-child(2n)::before {
-  background-image: linear-gradient(30deg,
-      rgba(0, 118, 189, 0.1),
-      transparent 50%);
+  background-image: linear-gradient(
+    30deg,
+    rgba(0, 118, 189, 0.1),
+    transparent 50%
+  );
 }
 
 .postcard .postcard__tagbox .red.play:hover {
@@ -324,15 +332,19 @@ section {
 }
 
 .red::before {
-  background-image: linear-gradient(-30deg,
-      rgba(189, 21, 11, 0.1),
-      transparent 50%);
+  background-image: linear-gradient(
+    -30deg,
+    rgba(189, 21, 11, 0.1),
+    transparent 50%
+  );
 }
 
 .red:nth-child(2n)::before {
-  background-image: linear-gradient(30deg,
-      rgba(189, 21, 11, 0.1),
-      transparent 50%);
+  background-image: linear-gradient(
+    30deg,
+    rgba(189, 21, 11, 0.1),
+    transparent 50%
+  );
 }
 
 .postcard .postcard__tagbox .yellow.play:hover {
@@ -348,64 +360,84 @@ section {
 }
 
 .yellow::before {
-  background-image: linear-gradient(-30deg,
-      rgba(189, 187, 73, 0.1),
-      transparent 50%);
+  background-image: linear-gradient(
+    -30deg,
+    rgba(189, 187, 73, 0.1),
+    transparent 50%
+  );
 }
 
 .yellow:nth-child(2n)::before {
-  background-image: linear-gradient(30deg,
-      rgba(189, 187, 73, 0.1),
-      transparent 50%);
+  background-image: linear-gradient(
+    30deg,
+    rgba(189, 187, 73, 0.1),
+    transparent 50%
+  );
 }
 
 @media screen and (min-width: 769px) {
   .green::before {
-    background-image: linear-gradient(-80deg,
-        rgba(121, 221, 9, 0.1),
-        transparent 50%);
+    background-image: linear-gradient(
+      -80deg,
+      rgba(121, 221, 9, 0.1),
+      transparent 50%
+    );
   }
 
   .green:nth-child(2n)::before {
-    background-image: linear-gradient(80deg,
-        rgba(121, 221, 9, 0.1),
-        transparent 50%);
+    background-image: linear-gradient(
+      80deg,
+      rgba(121, 221, 9, 0.1),
+      transparent 50%
+    );
   }
 
   .blue::before {
-    background-image: linear-gradient(-80deg,
-        rgba(0, 118, 189, 0.1),
-        transparent 50%);
+    background-image: linear-gradient(
+      -80deg,
+      rgba(0, 118, 189, 0.1),
+      transparent 50%
+    );
   }
 
   .blue:nth-child(2n)::before {
-    background-image: linear-gradient(80deg,
-        rgba(0, 118, 189, 0.1),
-        transparent 50%);
+    background-image: linear-gradient(
+      80deg,
+      rgba(0, 118, 189, 0.1),
+      transparent 50%
+    );
   }
 
   .red::before {
-    background-image: linear-gradient(-80deg,
-        rgba(189, 21, 11, 0.1),
-        transparent 50%);
+    background-image: linear-gradient(
+      -80deg,
+      rgba(189, 21, 11, 0.1),
+      transparent 50%
+    );
   }
 
   .red:nth-child(2n)::before {
-    background-image: linear-gradient(80deg,
-        rgba(189, 21, 11, 0.1),
-        transparent 50%);
+    background-image: linear-gradient(
+      80deg,
+      rgba(189, 21, 11, 0.1),
+      transparent 50%
+    );
   }
 
   .yellow::before {
-    background-image: linear-gradient(-80deg,
-        rgba(189, 187, 73, 0.1),
-        transparent 50%);
+    background-image: linear-gradient(
+      -80deg,
+      rgba(189, 187, 73, 0.1),
+      transparent 50%
+    );
   }
 
   .yellow:nth-child(2n)::before {
-    background-image: linear-gradient(80deg,
-        rgba(189, 187, 73, 0.1),
-        transparent 50%);
+    background-image: linear-gradient(
+      80deg,
+      rgba(189, 187, 73, 0.1),
+      transparent 50%
+    );
   }
 }
 
@@ -532,9 +564,7 @@ body .header .header__cta .header__cta--button:hover {
   color: #601615;
   font-weight: 800;
   cursor: default;
-
 }
-
 
 .msg-container:hover {
   -webkit-transform: scale(1.1);
@@ -542,7 +572,6 @@ body .header .header__cta .header__cta--button:hover {
   -ms-transform: scale(1.1);
   transform: scale(1.1);
 }
-
 
 .msg-container.investments {
   top: 35%;

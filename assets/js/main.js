@@ -7,9 +7,6 @@
     document.querySelector("#loading").style.display = "none";
   }, 3000);
 
-
- 
-
   /* Easy selector helper function */
   const select = (el, all = false) => {
     el = el.trim();
@@ -31,7 +28,6 @@
       }
     }
   };
-
 
   /* Testimonials slider   */
   new Swiper(".testimonials-slider", {
@@ -70,16 +66,15 @@
     });
   });
 
-
-// Hero slider JS
-$('.hero-slider').owlCarousel({
-  animateOut: 'flipOutX',
-  animateIn: 'fadeIn',
-  items:1,
-  loop:true,
-  nav:true,
-  dots: true,
-  })
+  // Hero slider JS
+  $(".hero-slider").owlCarousel({
+    animateOut: "flipOutX",
+    animateIn: "fadeIn",
+    items: 1,
+    loop: true,
+    nav: true,
+    dots: true,
+  });
 
   window.transitionToPage = function (href) {
     document.querySelector("body").style.opacity = 0;

@@ -48,7 +48,7 @@ section {
 }
 
 .herotext {
-  color: #601615
+  color: #601615;
 }
 
 .section-bg {
@@ -213,7 +213,7 @@ section {
   border-left: 10px solid #601615;
   margin: 1.5em 10px;
   padding: 2em 10px;
-  quotes: "\201C" "\201D" "\2018" "\2019";
+  quotes: "\201C""\201D""\2018""\2019";
 }
 
 .quote-box blockquote:before {
@@ -453,7 +453,7 @@ header {
   transition: 0.3s;
 }
 
-.icon-bar+.icon-bar {
+.icon-bar + .icon-bar {
   margin-top: 5px;
 }
 
@@ -510,7 +510,7 @@ header {
   color: #bf7497;
 }
 
-#nav-content li:not(.small)+.small {
+#nav-content li:not(.small) + .small {
   margin-top: auto;
 }
 
@@ -526,7 +526,7 @@ header {
   color: #888;
 }
 
-.small a+a {
+.small a + a {
   margin-left: 15px;
 }
 
@@ -545,8 +545,6 @@ header {
   cursor: pointer;
   color: #e6bfc7;
 }
-
-
 
 button.learn-more {
   width: 12rem;
@@ -647,14 +645,14 @@ button:hover .button-text {
 }
 
 .single-hs-item:before {
-  content: '';
+  content: "";
   position: absolute;
   width: 100%;
   height: 100%;
   left: 0;
   top: 0;
   background-color: #000;
-  opacity: .6;
+  opacity: 0.6;
 }
 
 .item-bg1 {
@@ -695,7 +693,7 @@ button:hover .button-text {
 }
 
 .herotext1 {
-  padding-top: 18%
+  padding-top: 18%;
 }
 
 .hero-text p {
@@ -710,17 +708,17 @@ button:hover .button-text {
 }
 
 .hero-slider .owl-item.active h1 {
-  -animation: 1s .3s fadeInUp both;
+  -animation: 1s 0.3s fadeInUp both;
 }
 
 .hero-slider .owl-item.active p {
-  -webkit-animation: 1s .3s fadeInUp both;
-  animation: 1s .3s fadeInUp both;
+  -webkit-animation: 1s 0.3s fadeInUp both;
+  animation: 1s 0.3s fadeInUp both;
 }
 
 .hero-slider .owl-item.active .slider-btn {
-  -webkit-animation: 1s .3s fadeInUp both;
-  animation: 1s .3s fadeInUp both;
+  -webkit-animation: 1s 0.3s fadeInUp both;
+  animation: 1s 0.3s fadeInUp both;
 }
 
 .owl-carousel .owl-nav button.owl-prev {
@@ -804,10 +802,9 @@ button:hover .button-text {
   }
 
   .herotext1 {
-    padding-top: 18%
+    padding-top: 18%;
   }
 }
-
 
 .d-table {
   width: 100%;
@@ -843,25 +840,25 @@ button:hover .button-text {
   }
 
   .HeaderPhoneTitle {
-    margin-left: 13%
+    margin-left: 13%;
   }
 
   .button.learn-more {
-    margin-left: 40%
+    margin-left: 40%;
   }
 
   .button-text {
-    margin-left: 40%
+    margin-left: 40%;
   }
 
   .circle {
-    margin-left: 21%
+    margin-left: 21%;
   }
 }
 
 .headerPhone {
   color: #fff;
-  margin-left: 10px
+  margin-left: 10px;
 }
 
 .headerPhone:hover {
