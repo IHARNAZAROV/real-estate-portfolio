@@ -29,19 +29,19 @@ map.addControl(
 let house = {
   type: "FeatureCollection",
   features: [
-/*     {
+     {
       type: "Feature",
       geometry: {
         type: "Point",
-        coordinates: [25.290495, 53.87634],
+        coordinates: [25.836733, 53.585297],
       },
       properties: {
-        address: "3-комнатная квартира",
-        city: "Лида    ",
+        address: "2-этажный дом",
+        city: "Новогрудок    ",
         country: "Беларусь",
-        crossStreet: "3-й переулок Плеханова",
+        crossStreet: "Игната Домейко",
       },
-    }, */
+    },
     {
       type: "Feature",
       geometry: {
