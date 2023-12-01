@@ -839,6 +839,8 @@ button:hover .button-text {
     display: none;
   }
 
+  headerPhone{ display: none;}
+
   .HeaderPhoneTitle {
     margin-left: 15%;
   }
