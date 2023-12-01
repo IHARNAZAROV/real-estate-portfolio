@@ -839,7 +839,7 @@ button:hover .button-text {
     display: none;
   }
 
-  headerPhone{ display: none;}
+  .headerPhone{ display: none;}
 
   .HeaderPhoneTitle {
     margin-left: 15%;
@@ -856,7 +856,6 @@ button:hover .button-text {
   .circle {
     margin-left: 21%;
   }
-  .headerPhone {  font-size: smaller;}
 
 }
 
