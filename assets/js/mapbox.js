@@ -107,19 +107,19 @@ let house = {
         crossStreet: "Машерова, д.11к4",
       },
     },
-/*     {
+ {
       type: "Feature",
       geometry: {
         type: "Point",
-        coordinates: [25.280047, 53.884503],
+        coordinates: [25.385051, 53.604936],
       },
       properties: {
         address: "2-комнатная квартира",
-        city: "Лида    ",
+        city: "аг. Гезгалы    ",
         country: "Беларусь",
-        crossStreet: "Лизы Чайкиной",
+        crossStreet: "д.9",
       },
-    }, */
+    },
     {
       type: "Feature",
       geometry: {

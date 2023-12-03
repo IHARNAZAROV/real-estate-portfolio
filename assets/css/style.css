@@ -261,68 +261,6 @@ section {
   font-weight: 300;
 }
 
-.container-pulse {
-  width: 200px;
-  height: 30%;
-  margin: 0 auto 0;
-  -webkit-perspective: 1000;
-  -webkit-backface-visibility: hidden;
-}
-
-.pulse-button {
-  position: relative;
-  top: 50%;
-  left: 30%;
-  margin-left: -50px;
-  margin-top: -50px;
-  display: block;
-  width: 150px;
-  height: 150px;
-  font-size: 1.3em;
-  font-weight: light;
-  font-family: Rubik, sans-serif;
-  text-transform: uppercase;
-  text-align: center;
-  line-height: 80px;
-  letter-spacing: -1px;
-  color: #d3b1c2;
-  border: none;
-  border-radius: 50%;
-  background: #601615;
-  cursor: pointer;
-  box-shadow: 0 0 0 0 rgba(90, 153, 212, 0.5);
-  -webkit-animation: pulse 1.5s infinite;
-}
-
-.pulse-button:hover {
-  -webkit-animation: none;
-  color: #d3b1c2;
-}
-
-@-webkit-keyframes pulse {
-  0% {
-    -moz-transform: scale(0.9);
-    -ms-transform: scale(0.9);
-    -webkit-transform: scale(0.9);
-    transform: scale(0.9);
-  }
-
-  70% {
-    -moz-transform: scale(1);
-    -ms-transform: scale(1);
-    -webkit-transform: scale(1);
-    transform: scale(1);
-    box-shadow: 0 0 0 50px rgba(90, 153, 212, 0);
-  }
-
-  100% {
-    -moz-transform: scale(0.9);
-    -ms-transform: scale(0.9);
-    -webkit-transform: scale(0.9);
-    transform: scale(0.9);
-    box-shadow: 0 0 0 0 rgba(90, 153, 212, 0);
-  }
-}
 
 .logo-slider::after {
   right: 0;
