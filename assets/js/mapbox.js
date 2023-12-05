@@ -94,19 +94,19 @@ let house = {
         crossStreet: "И.Домейко, д.9",
       },
     },
-/*     {
+    {
       type: "Feature",
       geometry: {
         type: "Point",
-        coordinates: [25.284925, 53.876568],
+        coordinates: [25.838790, 53.594821],
       },
       properties: {
-        address: "3-комнатная квартира",
-        city: "Лида    ",
+        address: "1-этажный дом",
+        city: "Новогрудок    ",
         country: "Беларусь",
-        crossStreet: "Машерова, д.11к4",
+        crossStreet: "Свердлова",
       },
-    }, */
+    }, 
  {
       type: "Feature",
       geometry: {
