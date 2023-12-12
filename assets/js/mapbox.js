@@ -72,6 +72,19 @@ let house = {
       type: "Feature",
       geometry: {
         type: "Point",
+        coordinates: [25.278466, 53.891779],
+      },
+      properties: {
+        address: "1-комнатная квартира",
+        city: "Лида    ",
+        country: "Беларусь",
+        crossStreet: "Куйбышева, д.23 к.1",
+      },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
         coordinates: [25.259458, 53.90509],
       },
       properties: {
