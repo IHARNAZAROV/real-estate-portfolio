@@ -120,7 +120,7 @@ let house = {
         crossStreet: "Свердлова",
       },
     }, 
- {
+ /* {
       type: "Feature",
       geometry: {
         type: "Point",
@@ -132,7 +132,7 @@ let house = {
         country: "Беларусь",
         crossStreet: "д.9",
       },
-    },
+    }, */
     {
       type: "Feature",
       geometry: {
