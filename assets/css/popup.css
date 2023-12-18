@@ -52,6 +52,7 @@
 
 #popup-welcome .recovery {
     color: #601615;
+    text-align: center;
 }
 
 #popup-welcome.active {
@@ -90,4 +91,8 @@
 
 .shape {
     color: #601615;
+}
+
+.popup {
+    text-align: center;
 }
