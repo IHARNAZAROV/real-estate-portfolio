@@ -87,6 +87,7 @@
   <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.compat.css'>
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet" />
+  <link rel="stylesheet" href="/assets/css/popup.css">
 </head>
 
 <body>
@@ -163,8 +164,27 @@
     </div>
   </header>
  <!-- SNOW -->
-  <div class="snow-container"></div>
-  <div style="height: 200vh;">
+   <!-- <div class="snow-container"></div>
+<div style="height: 200vh;"></div> -->
+
+
+  <div id="popup-welcome">
+    <div class="container">
+      <a onclick="togglePopup(popup)" href="#" class="toggle-popup">Закрыть</a>
+      <div class="window">
+        <h2 class="recovery">Добро пожаловать на сайт Анжелики Адалевской</h2>
+        <p>У меня для Вас отличные предложения недвижимости в Лиде </p>
+        <p>Остались вопросы ? Свяжитесь с нами.</p>
+        <p>Contact us at lida.urielt.by</p>
+  <div class="logos">
+          <div><img src="/assets/img/135109.webp" width="120"/></div>
+
+        </div>
+      </div>
+      <div class="bottom-divider"></div>
+    </div>
+  </div>
+
 
   <div id="nav-container">
     <div class="bg"></div>
@@ -1125,6 +1145,7 @@
     <script src="/assets/js/quote.js"></script>
     <script src="/assets/js/script.js"></script>
     <script src="/assets/js/timeline.js"></script>
+    <script src="/assets/js/popup.js"></script>
   </main>
 </body>
 
