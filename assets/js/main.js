@@ -68,7 +68,7 @@
 
 
 // Snow
-document.addEventListener("DOMContentLoaded", function () {
+/* document.addEventListener("DOMContentLoaded", function () {
   const snowContainer = document.querySelector(".snow-container");
 
   const particlesPerThousandPixels = 0.1;
@@ -148,8 +148,7 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 
   document.addEventListener("visibilitychange", handleVisibilityChange);
-});
-
+}); */
 
 
   // Hero slider JS

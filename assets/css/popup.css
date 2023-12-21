@@ -1,0 +1,98 @@
+#popup-welcome {
+    height: 0;
+    position: fixed;
+    top: 15%;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    opacity: 0;
+    transition: opacity 250ms ease;
+    z-index: 50;
+    border-radius: 20px;
+}
+
+#popup-welcome .container {
+    background: white;
+    max-width: 500px;
+    margin: 40px auto;
+    padding: 0;
+    position: relative;
+    top: 15%;
+    transition: all 500ms ease;
+    border-radius: 20px 20px 0 0;
+}
+
+#popup-welcome .container>img {
+    display: block;
+    clip-path: polygon(0 0, 100% 0, 100% 94%, 0 100%);
+    width: 100%;
+}
+
+#popup-welcome .window {
+    padding: 20px 40px 40px;
+
+}
+
+#popup-welcome .logos {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    margin: 25px 0 0;
+}
+
+#popup-welcome .logos img {
+    max-width: 150px;
+}
+
+#popup-welcome .bottom-divider {
+    background: #601615;
+    height: 60px;
+    clip-path: polygon(0 20px, 100% 0, 100% 100%, 0 100%);
+}
+
+#popup-welcome .recovery {
+    color: #601615;
+    text-align: center;
+}
+
+#popup-welcome.active {
+    height: auto;
+    bottom: 0;
+    opacity: 1;
+}
+
+#popup-welcome.active .container {
+    top: 0;
+}
+
+.toggle-popup {
+    background: #601615;
+    border-radius: 20px;
+    color: white;
+    cursor: pointer;
+    float: right;
+    font-size: 10px;
+    letter-spacing: 0.1em;
+    margin: -5px 20px 0 0;
+    padding: 4px 15px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.toggle-popup:hover,
+.toggle-popup:focus {
+    background: #601615;
+    color: white;
+}
+
+.recovery-step2 {
+    color: #601615;
+}
+
+.shape {
+    color: #601615;
+}
+
+.popup {
+    text-align: center;
+}
