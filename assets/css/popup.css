@@ -41,18 +41,21 @@
 }
 
 #popup-welcome .logos img {
-    max-width: 150px;
+    max-width: 450px;
+    max-height: 200px;
+
 }
 
 #popup-welcome .bottom-divider {
     background: #601615;
-    height: 60px;
+    height: 40px;
     clip-path: polygon(0 20px, 100% 0, 100% 100%, 0 100%);
 }
 
 #popup-welcome .recovery {
     color: #601615;
     text-align: center;
+    font-size: 1.15em;
 }
 
 #popup-welcome.active {
