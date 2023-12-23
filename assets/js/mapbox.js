@@ -68,7 +68,7 @@ let house = {
         crossStreet: "Машерова, д.9 к.1",
       },
     },
-    {
+  /*   {
       type: "Feature",
       geometry: {
         type: "Point",
@@ -80,7 +80,7 @@ let house = {
         country: "Беларусь",
         crossStreet: "Куйбышева, д.23 к.1",
       },
-    },
+    }, */
     {
       type: "Feature",
       geometry: {
