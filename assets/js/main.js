@@ -29,8 +29,8 @@
     }
   };
 
-  /* Testimonials slider   */
-  new Swiper(".testimonials-slider", {
+ /* Testimonials slider   */
+/* new Swiper(".testimonials-slider", {
     speed: 600,
     loop: true,
     autoplay: {
@@ -54,7 +54,22 @@
         spaceBetween: 20,
       },
     },
+  }); */
+ 
+  var swiper = new Swiper(".mySwiper", {
+    autoplay: {
+      delay: 3000,
+      disableOnInteraction: false
+    },
+    loop: true,
+    effect: "fade",
+    autoHeight: true,
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev"
+    }
   });
+ 
 
   /* Animation on scroll   */
   window.addEventListener("load", () => {
