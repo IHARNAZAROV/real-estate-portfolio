@@ -120,19 +120,19 @@ let house = {
         crossStreet: "Свердлова",
       },
     }, 
- /* {
+ {
       type: "Feature",
       geometry: {
         type: "Point",
-        coordinates: [25.385051, 53.604936],
+        coordinates: [25.339192,53.875703],
       },
       properties: {
         address: "2-комнатная квартира",
-        city: "аг. Гезгалы    ",
+        city: "Лида    ",
         country: "Беларусь",
-        crossStreet: "д.9",
+        crossStreet: "Южный городок, д.15",
       },
-    }, */
+    }, 
     {
       type: "Feature",
       geometry: {
