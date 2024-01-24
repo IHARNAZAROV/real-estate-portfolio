@@ -59,6 +59,20 @@ let house = {
       type: "Feature",
       geometry: {
         type: "Point",
+        coordinates: [25.215252,53.885844],
+      },
+      properties: {
+        address: "Участок с домом",
+        city: "с/т Связист (Гаевка)",
+        country: "Беларусь",
+        crossStreet: "д.32",
+      },
+    },
+
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
         coordinates: [25.282482, 53.876563],
       },
       properties: {
