@@ -29,7 +29,7 @@ map.addControl(
 let house = {
   type: "FeatureCollection",
   features: [
-     {
+    {
       type: "Feature",
       geometry: {
         type: "Point",
@@ -59,7 +59,7 @@ let house = {
       type: "Feature",
       geometry: {
         type: "Point",
-        coordinates: [25.215252,53.885844],
+        coordinates: [25.215252, 53.885844],
       },
       properties: {
         address: "Участок с домом",
@@ -82,7 +82,7 @@ let house = {
         crossStreet: "Машерова, д.9 к.1",
       },
     },
-   {
+    {
       type: "Feature",
       geometry: {
         type: "Point",
@@ -133,12 +133,12 @@ let house = {
         country: "Беларусь",
         crossStreet: "Свердлова",
       },
-    }, 
- {
+    },
+    {
       type: "Feature",
       geometry: {
         type: "Point",
-        coordinates: [25.339192,53.875703],
+        coordinates: [25.339192, 53.875703],
       },
       properties: {
         address: "2-комнатная квартира",
@@ -146,7 +146,7 @@ let house = {
         country: "Беларусь",
         crossStreet: "Южный городок, д.15",
       },
-    }, 
+    },
     {
       type: "Feature",
       geometry: {
@@ -217,12 +217,12 @@ function createPopUp(currentFeature) {
     .setLngLat(currentFeature.geometry.coordinates)
     .setHTML(
       "<h3>" +
-        currentFeature.properties.address +
-        "</h3>" +
-        "<h4>" +
-        currentFeature.properties.city +
-        "</h4>" +
-        currentFeature.properties.crossStreet
+      currentFeature.properties.address +
+      "</h3>" +
+      "<h4>" +
+      currentFeature.properties.city +
+      "</h4>" +
+      currentFeature.properties.crossStreet
     )
     .addTo(map);
 }
