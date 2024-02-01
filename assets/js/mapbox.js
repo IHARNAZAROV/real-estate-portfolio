@@ -59,6 +59,19 @@ let house = {
       type: "Feature",
       geometry: {
         type: "Point",
+        coordinates: [25.328215, 53.877486],
+      },
+      properties: {
+        address: "2-комнатная квартира",
+        city: "Лида    ",
+        country: "Беларусь",
+        crossStreet: "Заречная, д.13",
+      },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
         coordinates: [25.215252, 53.885844],
       },
       properties: {
