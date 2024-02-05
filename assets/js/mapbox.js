@@ -94,6 +94,19 @@ let house = {
         crossStreet: "Челюскинцев",
       },
     },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [25.311390, 53.898109],
+      },
+      properties: {
+        address: "1-комнатная квартира",
+        city: "Лида    ",
+        country: "Беларусь",
+        crossStreet: "Игнатова, д. 31",
+      },
+    },
 
     {
       type: "Feature",
