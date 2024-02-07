@@ -1,5 +1,6 @@
 ---
 deployment:
-      tasks:
-        - export DEPLOYPATH=/home/anzhelikab/public_html
-        - /bin cp * $DEPLOYPATH                           
+  tasks:
+    - export REPOPATH=/home/anzhelikab/repositories/*
+    - export SITEPATH=/home/anzhelikab/public_html/
+    - /bin/rsync -rav --exclude '.git' --exclude '.cpanel.yml' --del $REPOPATH $SITEPATH                         
