@@ -2,4 +2,4 @@
 deployment:
    tasks:
       - export DEPLOYPATH=/home/anzhelikab/public_html/
-      - /bin/cp -R assets $DEPLOYPATH                       
+      - /bin/cp -R * $DEPLOYPATH                       
