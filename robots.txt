@@ -2,8 +2,8 @@
 
 User-agent: *
 Allow: /
-Sitemap: https://anzhelika.tk/sitemap.xml
-Host: anzhelika.tk
+Sitemap: https://anzhelika.by/sitemap.xml
+Host: anzhelika.by
 
 User-agent: pr-cy
 Disallow: /
