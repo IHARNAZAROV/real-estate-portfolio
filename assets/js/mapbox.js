@@ -72,6 +72,20 @@ let house = {
       type: "Feature",
       geometry: {
         type: "Point",
+        coordinates: [25.280559, 53.880846],
+      },
+      properties: {
+        address: "3-комнатная квартира",
+        city: "Лида    ",
+        country: "Беларусь",
+        crossStreet: "Коммунистическая, д.43",
+      },
+    },
+
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
         coordinates: [25.215252, 53.885844],
       },
       properties: {
