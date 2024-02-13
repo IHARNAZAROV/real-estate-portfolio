@@ -146,23 +146,49 @@
     <link href="/assets/css/popup.css" rel="stylesheet" />
   </head>
   <body>
-<!-- Yandex.Metrika counter -->
-<script type="text/javascript" >
-  (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
-  m[i].l=1*new Date();
-  for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
-  k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
-  (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+    <!-- Yandex.Metrika counter -->
+    <script type="text/javascript">
+      (function (m, e, t, r, i, k, a) {
+        m[i] =
+          m[i] ||
+          function () {
+            (m[i].a = m[i].a || []).push(arguments);
+          };
+        m[i].l = 1 * new Date();
+        for (var j = 0; j < document.scripts.length; j++) {
+          if (document.scripts[j].src === r) {
+            return;
+          }
+        }
+        (k = e.createElement(t)),
+          (a = e.getElementsByTagName(t)[0]),
+          (k.async = 1),
+          (k.src = r),
+          a.parentNode.insertBefore(k, a);
+      })(
+        window,
+        document,
+        "script",
+        "https://mc.yandex.ru/metrika/tag.js",
+        "ym"
+      );
 
-  ym(96388500, "init", {
-       clickmap:true,
-       trackLinks:true,
-       accurateTrackBounce:true,
-       webvisor:true
-  });
-</script>
-<noscript><div><img src="https://mc.yandex.ru/watch/96388500" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
-<!-- /Yandex.Metrika counter -->
+      ym(96388500, "init", {
+        clickmap: true,
+        trackLinks: true,
+        accurateTrackBounce: true,
+        webvisor: true,
+      });
+    </script>
+    <noscript
+      ><div>
+        <img
+          src="https://mc.yandex.ru/watch/96388500"
+          style="position: absolute; left: -9999px"
+          alt=""
+        /></div
+    ></noscript>
+    <!-- /Yandex.Metrika counter -->
 
     <!-- Loader -->
     <div id="loading">
@@ -1181,53 +1207,134 @@
               что работаешь не зря.
             </p>
           </div>
-          <div class="swiper mySwiper">
-            <img
-              src="https://uploads-ssl.webflow.com/5fac11c3554384e2baf6481c/62598c35409a2539a9a5a798_quotemark.svg"
-              alt=""
-              class="swiper-quote"
-            />
+          <div
+            class="testimonials-slider swiper"
+            data-aos="fade-up"
+            data-aos-delay="100"
+          >
             <div class="swiper-wrapper">
               <div class="swiper-slide">
-                <div class="swiper-slide-data">
-                  <div class="swiper-slide-data-text">
+                <div class="testimonial-item" data-aos="fade-up">
+                  <p>
+                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                    Благодарность Анжелике Адалевской. Спасибо огромное агенту
+                    Анжелике за помощь в продаже квартиры, за доброе и чуткое
+                    отношение. Анжелика- это просто эталон учтивости,
+                    компетентности и профессионализма. Она вела весь нелегкий
+                    процесс - поиск покупателей, показы, сбор и оформление
+                    документов. На протяжении всего времени я ощущала поддержку
+                    и заинтересованность в успехе дела.
+                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                  </p>
+                  <img
+                    src="/assets/img/testimonials/8.webp"
+                    class="testimonial-img"
+                    alt=""
+                  />
+                  <h3>ЕЛЕНА БЕЛКА</h3>
+                  <h4>Google отзывы</h4>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div
+                  class="testimonial-item"
+                  data-aos="fade-up"
+                  data-aos-delay="200"
+                >
+                  <p>
+                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                    Хоту выразить благодарность агенту Анжелике в сопровождении
+                    сделки покупки квартиры! Благодаря высокому профессионализму
+                    и индивидуальному подходу, умению коммуницировать в
+                    непростых ситуациях для нас сделка прошла незаметно,четко и
+                    быстро! Успехов и процветания компании, рады ,что обратились
+                    к вам!
+                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                  </p>
+                  <img
+                    src="/assets/img/testimonials/9.webp"
+                    class="testimonial-img"
+                    alt=""
+                  />
+                  <h3>Светлана</h3>
+                  <h4>Сайт агенства</h4>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div
+                  class="testimonial-item"
+                  data-aos="fade-up"
+                  data-aos-delay="300"
+                >
+                  <p>
+                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                    Большое человеческое спасибо агенту Анжелике Адалевской за
+                    помощь в подборе и покупке квартиры для нашей семьи.
+                    Аккуратно, спокойно и профессионально.
+                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                  </p>
+                  <img
+                    src="/assets/img/testimonials/2.webp"
+                    class="testimonial-img"
+                    alt=""
+                  />
+                  <h3>Александр</h3>
+                  <h4>Сайт агенства</h4>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div
+                  class="testimonial-item"
+                  data-aos="fade-up"
+                  data-aos-delay="400"
+                >
+                  <p>
+                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                    Хочу выразить благодарность Адалевской Анжелике. Самый
+                    ответственный и компетентный риэлтор в г. Лида. Самый
+                    настоящий профессионал своего дела.
+                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                  </p>
+                  <img
+                    src="/assets/img/testimonials/6.webp"
+                    class="testimonial-img"
+                    alt=""
+                  />
+                  <h3>Игорь</h3>
+                  <h4>Сайт агенства</h4>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div
+                  class="testimonial-item"
+                  data-aos="fade-up"
+                  data-aos-delay="600"
+                >
+                  <p>
+                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
                     Очень довольны остались работой риелтора Анжелика. Всё
                     сделано быстро и профессионально. Спасибо вам за вашу работу
                     и побольше вам благодарных клиентов. А вашей фирме
                     процветания
-                  </div>
-                  <div class="swiper-slide-data-info">
-                    <div class="swiper-slide-data-info-img">
-                      <img src="/assets/img/testimonials/9.webp" alt="Samira" />
-                    </div>
-                    <div class="swiper-slide-data-info-author">
-                      Самира Холматова
-                      <span>Google отзывы</span>
-                    </div>
-                  </div>
+                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                  </p>
+                  <img
+                    src="/assets/img/testimonials/12.webp"
+                    class="testimonial-img"
+                    alt=""
+                  />
+                  <h3>Самира Холматова</h3>
+                  <h4>Google отзывы</h4>
                 </div>
               </div>
-              <div class="swiper-slide">
-                <div class="swiper-slide-data">
-                  <div class="swiper-slide-data-text">
-                    Хочу выразить благодарность Адалевской Анжелике. Самый
-                    ответственный и компетентный риэлтор в г. Лида. Самый
-                    настоящий профессионал своего дела.
-                  </div>
-                  <div class="swiper-slide-data-info">
-                    <div class="swiper-slide-data-info-img">
-                      <img src="/assets/img/testimonials/5.webp" alt="Igor" />
-                    </div>
-                    <div class="swiper-slide-data-info-author">
-                      Игорь
-                      <span>Сайт агенства</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="swiper-slide">
-                <div class="swiper-slide-data">
-                  <div class="swiper-slide-data-text">
+                            <div class="swiper-slide">
+                <div
+                  class="testimonial-item"
+                  data-aos="fade-up"
+                  data-aos-delay="700"
+                >
+                  <p>
+                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
                     Хочу выразить огромнейшую благодарность Адалевской Анжелике
                     за помощь в продаже квартиры и покупке дома. В подготовке
                     всех необходимых документов. Спасибо за профессионализм, за
@@ -1236,107 +1343,19 @@
                     с Анжеликой, спасибо большое. Обязательно буду рекомендовать
                     всем знакомым работу именно с этим агентом, Адалевской
                     Анжеликой. Желаю дальнейшего процветания Вашей организации.
-                  </div>
-                  <div class="swiper-slide-data-info">
-                    <div class="swiper-slide-data-info-img">
-                      <img src="/assets/img/testimonials/12.webp" alt="Alex" />
-                    </div>
-                    <div class="swiper-slide-data-info-author">
-                      Анна
-                      <span>Яндекс</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="swiper-slide">
-                <div class="swiper-slide-data">
-                  <div class="swiper-slide-data-text">
-                    Большое человеческое спасибо агенту Анжелике Адалевской за
-                    помощь в подборе и покупке квартиры для нашей семьи.
-                    Аккуратно, спокойно и профессионально.
-                  </div>
-                  <div class="swiper-slide-data-info">
-                    <div class="swiper-slide-data-info-img">
-                      <img src="/assets/img/testimonials/2.webp" alt="Alex" />
-                    </div>
-                    <div class="swiper-slide-data-info-author">
-                      Александр
-                      <span>Сайт агенства</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="swiper-slide">
-                <div class="swiper-slide-data">
-                  <div class="swiper-slide-data-text">
-                    Хочу выразить благодарность агенту Анжелике в сопровождении
-                    сделки покупки квартиры! Благодаря высокому профессионализму
-                    и индивидуальному подходу, умению коммуницировать в
-                    непростых ситуациях для нас сделка прошла незаметно,четко и
-                    быстро! Успехов и процветания компании, рады ,что обратились
-                    к вам!
-                  </div>
-                  <div class="swiper-slide-data-info">
-                    <div class="swiper-slide-data-info-img">
-                      <img
-                        src="/assets/img/testimonials/11.webp"
-                        alt="Svetlana"
-                      />
-                    </div>
-                    <div class="swiper-slide-data-info-author">
-                      Светлана
-                      <span>Сайт агенства</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="swiper-slide">
-                <div class="swiper-slide-data">
-                  <div class="swiper-slide-data-text">
-                    Благодарность Анжелике Адалевской. Спасибо огромное агенту
-                    Анжелике за помощь в продаже квартиры, за доброе и чуткое
-                    отношение. Анжелика- это просто эталон учтивости,
-                    компетентности и профессионализма. Она вела весь нелегкий
-                    процесс - поиск покупателей, показы, сбор и оформление
-                    документов. На протяжении всего времени я ощущала поддержку
-                    и заинтересованность в успехе дела.
-                  </div>
-                  <div class="swiper-slide-data-info">
-                    <div class="swiper-slide-data-info-img">
-                      <img src="/assets/img/testimonials/8.webp" alt="Elena" />
-                    </div>
-                    <div class="swiper-slide-data-info-author">
-                      ЕЛЕНА БЕЛКА
-                      <span>Google отзывы</span>
-                    </div>
-                  </div>
+                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                  </p>
+                  <img
+                    src="/assets/img/testimonials/9.webp"
+                    class="testimonial-img"
+                    alt=""
+                  />
+                  <h3>Анна</h3>
+                  <h4>Яндекс отзывы</h4>
                 </div>
               </div>
             </div>
-            <div class="swiper-navigation">
-              <div class="swiper-button-prev">
-                <svg width="24" height="24" fill="none" viewBox="0 0 24 24">
-                  <path
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="1.5"
-                    d="M13.25 8.75L9.75 12L13.25 15.25"
-                  ></path>
-                </svg>
-              </div>
-              <div class="swiper-button-next">
-                <svg width="24" height="24" fill="none" viewBox="0 0 24 24">
-                  <path
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="1.5"
-                    d="M10.75 8.75L14.25 12L10.75 15.25"
-                  ></path>
-                </svg>
-              </div>
-            </div>
+            <div class="swiper-pagination"></div>
           </div>
         </div>
       </section>
