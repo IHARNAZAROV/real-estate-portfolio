@@ -55,12 +55,24 @@ let house = {
         crossStreet: "Луговая, д.1",
       },
     },
-
     {
       type: "Feature",
       geometry: {
         type: "Point",
-        coordinates: [25.272475,53.897292],
+        coordinates: [25.383668, 53.603819],
+      },
+      properties: {
+        address: "2-комнатная квартира",
+        city: "Гезгалы    ",
+        country: "Беларусь",
+        crossStreet: "д.2",
+      },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [25.272475, 53.897292],
       },
       properties: {
         address: "1-комнатная квартира",
@@ -126,7 +138,7 @@ let house = {
       type: "Feature",
       geometry: {
         type: "Point",
-        coordinates: [25.311390, 53.898109],
+        coordinates: [25.31139, 53.898109],
       },
       properties: {
         address: "1-комнатная квартира",
@@ -162,7 +174,7 @@ let house = {
         crossStreet: "Тавлая, д.25",
       },
     },
-  /*   {
+    /*   {
       type: "Feature",
       geometry: {
         type: "Point",
@@ -192,7 +204,7 @@ let house = {
       type: "Feature",
       geometry: {
         type: "Point",
-        coordinates: [25.838790, 53.594821],
+        coordinates: [25.83879, 53.594821],
       },
       properties: {
         address: "1-этажный дом",
@@ -284,12 +296,12 @@ function createPopUp(currentFeature) {
     .setLngLat(currentFeature.geometry.coordinates)
     .setHTML(
       "<h3>" +
-      currentFeature.properties.address +
-      "</h3>" +
-      "<h4>" +
-      currentFeature.properties.city +
-      "</h4>" +
-      currentFeature.properties.crossStreet
+        currentFeature.properties.address +
+        "</h3>" +
+        "<h4>" +
+        currentFeature.properties.city +
+        "</h4>" +
+        currentFeature.properties.crossStreet
     )
     .addTo(map);
 }
