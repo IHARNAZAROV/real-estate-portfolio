@@ -55,6 +55,20 @@ let house = {
         crossStreet: "Луговая, д.1",
       },
     },
+
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [25.272475,53.897292],
+      },
+      properties: {
+        address: "1-комнатная квартира",
+        city: "Лида    ",
+        country: "Беларусь",
+        crossStreet: "Рыбиновского, д.14",
+      },
+    },
     {
       type: "Feature",
       geometry: {
