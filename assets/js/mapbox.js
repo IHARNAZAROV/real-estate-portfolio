@@ -161,7 +161,7 @@ let house = {
         crossStreet: "Машерова, д.9 к.1",
       },
     },
-    {
+    /*     {
       type: "Feature",
       geometry: {
         type: "Point",
@@ -172,19 +172,6 @@ let house = {
         city: "Лида    ",
         country: "Беларусь",
         crossStreet: "Тавлая, д.25",
-      },
-    },
-    /*   {
-      type: "Feature",
-      geometry: {
-        type: "Point",
-        coordinates: [25.259458, 53.90509],
-      },
-      properties: {
-        address: "1-комнатная квартира",
-        city: "Лида    ",
-        country: "Беларусь",
-        crossStreet: "Гастелло, д.44",
       },
     }, */
     {
