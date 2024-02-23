@@ -137,8 +137,8 @@ section {
   width: 20rem;
   height: 20rem;
   cursor: pointer;
-  background: url(/assets/img/profile-img.jpg) no-repeat 100% 50%;
-  background-size: 120%;
+  background: url(/assets/img/profile-img.webp) no-repeat 100% 30%;
+  background-size: 87%;
   border-radius: 50%;
   transition: all 0.5s cubic-bezier(0.55, 0, 0.1, 1);
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.75);
