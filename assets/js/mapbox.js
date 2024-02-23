@@ -213,7 +213,7 @@ let house = {
         crossStreet: "Южный городок, д.15",
       },
     },
-    {
+/*     {
       type: "Feature",
       geometry: {
         type: "Point",
@@ -225,7 +225,7 @@ let house = {
         country: "Беларусь",
         crossStreet: "Южный Городок, 11",
       },
-    },
+    }, */
   ],
 };
 // This adds the data to the map
