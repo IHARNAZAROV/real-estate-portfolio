@@ -161,19 +161,19 @@ let house = {
         crossStreet: "Машерова, д.9 к.1",
       },
     },
-    /*     {
+    {
       type: "Feature",
       geometry: {
         type: "Point",
-        coordinates: [25.311596, 53.894283],
+        coordinates: [25.261614, 53.888621],
       },
       properties: {
-        address: "2-комнатная квартира",
+        address: "Производственная база",
         city: "Лида    ",
         country: "Беларусь",
-        crossStreet: "Тавлая, д.25",
+        crossStreet: "1-й переулок Александра Невского",
       },
-    }, */
+    },
     {
       type: "Feature",
       geometry: {
@@ -213,7 +213,7 @@ let house = {
         crossStreet: "Южный городок, д.15",
       },
     },
-/*     {
+    /*     {
       type: "Feature",
       geometry: {
         type: "Point",
