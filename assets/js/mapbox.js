@@ -174,7 +174,7 @@ let house = {
         crossStreet: "1-й переулок Александра Невского",
       },
     },
-    {
+/*     {
       type: "Feature",
       geometry: {
         type: "Point",
@@ -186,7 +186,7 @@ let house = {
         country: "Беларусь",
         crossStreet: "И.Домейко, д.9",
       },
-    },
+    }, */
     {
       type: "Feature",
       geometry: {
