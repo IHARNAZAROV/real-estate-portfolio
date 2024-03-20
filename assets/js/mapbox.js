@@ -55,7 +55,7 @@ let house = {
         crossStreet: "Луговая, д.1",
       },
     },
-    {
+/*     {
       type: "Feature",
       geometry: {
         type: "Point",
@@ -67,7 +67,7 @@ let house = {
         country: "Беларусь",
         crossStreet: "д.2",
       },
-    },
+    }, */
     {
       type: "Feature",
       geometry: {
