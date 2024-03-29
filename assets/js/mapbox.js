@@ -108,7 +108,7 @@ let house = {
       },
     },
 
-    {
+/*     {
       type: "Feature",
       geometry: {
         type: "Point",
@@ -120,7 +120,7 @@ let house = {
         country: "Беларусь",
         crossStreet: "д.32",
       },
-    },
+    }, */
     {
       type: "Feature",
       geometry: {
