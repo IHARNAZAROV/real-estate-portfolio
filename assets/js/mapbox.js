@@ -108,19 +108,19 @@ let house = {
       },
     },
 
-/*     {
+ {
       type: "Feature",
       geometry: {
         type: "Point",
-        coordinates: [25.215252, 53.885844],
+        coordinates: [25.340675, 53.875082],
       },
       properties: {
-        address: "Участок с домом",
-        city: "с/т Связист (Гаевка)",
+        address: "2-комнатная квартира",
+        city: "Лида",
         country: "Беларусь",
-        crossStreet: "д.32",
+        crossStreet: "Южный городок, д.14",
       },
-    }, */
+    },
     {
       type: "Feature",
       geometry: {
