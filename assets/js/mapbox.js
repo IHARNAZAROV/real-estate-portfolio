@@ -72,16 +72,16 @@ let house = {
       type: "Feature",
       geometry: {
         type: "Point",
-        coordinates: [25.272475, 53.897292],
+        coordinates: [25.801969,53.582928],
       },
       properties: {
-        address: "1-комнатная квартира",
-        city: "Лида    ",
+        address: "2-комнатная квартира",
+        city: "Новогрудок    ",
         country: "Беларусь",
-        crossStreet: "Рыбиновского, д.14",
+        crossStreet: "Мицкевича, д.122, k.1",
       },
     },
-    {
+/*     {
       type: "Feature",
       geometry: {
         type: "Point",
@@ -93,7 +93,7 @@ let house = {
         country: "Беларусь",
         crossStreet: "Заречная, д.13",
       },
-    },
+    }, */
     {
       type: "Feature",
       geometry: {
