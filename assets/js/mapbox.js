@@ -138,6 +138,33 @@ let house = {
       type: "Feature",
       geometry: {
         type: "Point",
+        coordinates: [26.150901, 53.570429],
+      },
+      properties: {
+        address: "1-этажный дом",
+        city: "Кореличи",
+        country: "Беларусь",
+        crossStreet: "Янки Купалы",
+      },
+    },
+
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [25.301373, 53.897578],
+      },
+      properties: {
+        address: "3-комнатная квартира",
+        city: "Лида    ",
+        country: "Беларусь",
+        crossStreet: "Фрунзе, д. 2",
+      },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
         coordinates: [25.31139, 53.898109],
       },
       properties: {
