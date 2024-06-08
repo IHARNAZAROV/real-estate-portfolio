@@ -148,7 +148,7 @@ let house = {
       },
     },
 
-    {
+ /*    {
       type: "Feature",
       geometry: {
         type: "Point",
@@ -160,8 +160,8 @@ let house = {
         country: "Беларусь",
         crossStreet: "Фрунзе, д. 2",
       },
-    },
-    {
+    }, */
+/*     {
       type: "Feature",
       geometry: {
         type: "Point",
@@ -173,7 +173,7 @@ let house = {
         country: "Беларусь",
         crossStreet: "Игнатова, д. 31",
       },
-    },
+    }, */
 
     {
       type: "Feature",
@@ -201,19 +201,19 @@ let house = {
         crossStreet: "1-й переулок Александра Невского",
       },
     },
-/*     {
+     {
       type: "Feature",
       geometry: {
         type: "Point",
-        coordinates: [25.260895, 53.89718],
+        coordinates: [25.440549,53.748039],
       },
       properties: {
-        address: "3-комнатная квартира",
-        city: "Лида    ",
+        address: "Дом с участком",
+        city: "СТ Химик",
         country: "Беларусь",
-        crossStreet: "И.Домейко, д.9",
+        crossStreet: "Речная",
       },
-    }, */
+    }, 
     {
       type: "Feature",
       geometry: {
