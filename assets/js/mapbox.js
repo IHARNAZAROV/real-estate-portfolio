@@ -55,19 +55,19 @@ let house = {
         crossStreet: "Луговая, д.1",
       },
     },
-/*     {
+{
       type: "Feature",
       geometry: {
         type: "Point",
-        coordinates: [25.383668, 53.603819],
+        coordinates: [25.268351, 53.889147],
       },
       properties: {
         address: "2-комнатная квартира",
-        city: "Гезгалы    ",
+        city: "Лида    ",
         country: "Беларусь",
-        crossStreet: "д.2",
+        crossStreet: "Невского, д.44",
       },
-    }, */
+    }, 
     {
       type: "Feature",
       geometry: {
