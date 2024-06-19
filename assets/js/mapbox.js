@@ -81,19 +81,19 @@ let house = {
         crossStreet: "Мицкевича, д.122, k.1",
       },
     },
-/*     {
+  {
       type: "Feature",
       geometry: {
         type: "Point",
-        coordinates: [25.328215, 53.877486],
+        coordinates: [25.384459,53.603910],
       },
       properties: {
         address: "2-комнатная квартира",
-        city: "Лида    ",
+        city: "Гезгалы    ",
         country: "Беларусь",
-        crossStreet: "Заречная, д.13",
+        crossStreet: "д.1",
       },
-    }, */
+    }, 
     {
       type: "Feature",
       geometry: {
