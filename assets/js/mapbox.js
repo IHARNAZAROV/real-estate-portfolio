@@ -29,7 +29,7 @@ map.addControl(
 let house = {
   type: "FeatureCollection",
   features: [
-    {
+/*     {
       type: "Feature",
       geometry: {
         type: "Point",
@@ -41,7 +41,7 @@ let house = {
         country: "Беларусь",
         crossStreet: "Игната Домейко",
       },
-    },
+    }, */
     {
       type: "Feature",
       geometry: {
@@ -94,7 +94,7 @@ let house = {
         crossStreet: "д.1",
       },
     }, 
-    {
+/*     {
       type: "Feature",
       geometry: {
         type: "Point",
@@ -106,9 +106,9 @@ let house = {
         country: "Беларусь",
         crossStreet: "Коммунистическая, д.43",
       },
-    },
+    }, */
 
- {
+/*  {
       type: "Feature",
       geometry: {
         type: "Point",
@@ -120,8 +120,8 @@ let house = {
         country: "Беларусь",
         crossStreet: "Южный городок, д.14",
       },
-    },
-    {
+    }, */
+/*     {
       type: "Feature",
       geometry: {
         type: "Point",
@@ -133,7 +133,7 @@ let house = {
         country: "Беларусь",
         crossStreet: "Челюскинцев",
       },
-    },
+    }, */
     {
       type: "Feature",
       geometry: {
