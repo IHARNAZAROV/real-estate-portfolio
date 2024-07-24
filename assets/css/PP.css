@@ -19,7 +19,7 @@ body {
   font-weight: normal;
   line-height: 1.5;
   color: #252b46;
-  background: #ffffff;
+  background: #e6bfc7;
 }
 
 .container {
@@ -76,7 +76,7 @@ body {
   padding: 1rem 0;
   border: 2.5px solid transparent;
   color: #9194a1;
-  background: #ffffff;
+  background: #e6bfc7;
   transition: all 0.3s ease;
 }
 .main .tab-menu-link::before {
@@ -94,12 +94,12 @@ body {
   overflow: hidden;
   border-bottom: 2.5px solid #fa5757;
   color: #252b46;
-  background: #ffffff;
+  background: #e6bfc7;
 }
 .main .tab-bar {
   padding: 2.5rem 0;
   overflow: hidden;
-  background: #ffffff;
+  background: #e6bfc7;
 }
 .main .tab-bar-content {
   display: none;
