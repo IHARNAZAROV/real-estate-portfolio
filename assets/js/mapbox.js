@@ -68,7 +68,7 @@ let house = {
         crossStreet: "Невского, д.44",
       },
     }, 
-    {
+   /*  {
       type: "Feature",
       geometry: {
         type: "Point",
@@ -80,8 +80,8 @@ let house = {
         country: "Беларусь",
         crossStreet: "Мицкевича, д.122, k.1",
       },
-    },
-  {
+    }, */
+ /*  {
       type: "Feature",
       geometry: {
         type: "Point",
@@ -93,7 +93,7 @@ let house = {
         country: "Беларусь",
         crossStreet: "д.1",
       },
-    }, 
+    },  */
 /*     {
       type: "Feature",
       geometry: {
