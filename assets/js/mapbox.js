@@ -121,19 +121,19 @@ let house = {
         crossStreet: "Южный городок, д.14",
       },
     }, */
-/*     {
+  {
       type: "Feature",
       geometry: {
         type: "Point",
-        coordinates: [25.278898, 53.884997],
+        coordinates: [25.843435, 53.590593],
       },
       properties: {
         address: "1-этажный дом",
-        city: "Лида",
+        city: "Новогрудок",
         country: "Беларусь",
-        crossStreet: "Челюскинцев",
+        crossStreet: "Островского",
       },
-    }, */
+    }, 
     {
       type: "Feature",
       geometry: {
