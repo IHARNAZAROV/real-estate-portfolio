@@ -68,19 +68,19 @@ let house = {
         crossStreet: "Невского, д.44",
       },
     }, 
-   /*  {
+    {
       type: "Feature",
       geometry: {
         type: "Point",
-        coordinates: [25.801969,53.582928],
+        coordinates: [24.900267, 53.578764],
       },
       properties: {
-        address: "2-комнатная квартира",
-        city: "Новогрудок    ",
+        address: "Дом с участком",
+        city: " Желудокский сельсовет    ",
         country: "Беларусь",
-        crossStreet: "Мицкевича, д.122, k.1",
+        crossStreet: "деревня Купры",
       },
-    }, */
+    }, 
  /*  {
       type: "Feature",
       geometry: {
