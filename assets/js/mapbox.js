@@ -29,7 +29,7 @@ map.addControl(
 let house = {
   type: "FeatureCollection",
   features: [
-    {
+   /*  {
       type: "Feature",
       geometry: {
         type: "Point",
@@ -41,7 +41,7 @@ let house = {
         country: "Беларусь",
         crossStreet: "Будённого",
       },
-    },
+    }, */
     {
       type: "Feature",
       geometry: {
