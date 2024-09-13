@@ -81,19 +81,19 @@ let house = {
         crossStreet: "деревня Купры",
       },
     }, 
- /*  {
+ {
       type: "Feature",
       geometry: {
         type: "Point",
-        coordinates: [25.384459,53.603910],
+        coordinates: [25.252855,53.905870 ],
       },
       properties: {
         address: "2-комнатная квартира",
-        city: "Гезгалы    ",
+        city: "Лида    ",
         country: "Беларусь",
-        crossStreet: "д.1",
+        crossStreet: "Гастелло, д.69",
       },
-    },  */
+    }, 
 /*     {
       type: "Feature",
       geometry: {
