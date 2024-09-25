@@ -94,19 +94,19 @@ let house = {
         crossStreet: "Гастелло, д.69",
       },
     }, 
-/*     {
+ {
       type: "Feature",
       geometry: {
         type: "Point",
-        coordinates: [25.280559, 53.880846],
+        coordinates: [25.430650, 53.670708],
       },
       properties: {
         address: "3-комнатная квартира",
-        city: "Лида    ",
+        city: "Селец    ",
         country: "Беларусь",
-        crossStreet: "Коммунистическая, д.43",
+        crossStreet: "Молодежная",
       },
-    }, */
+    }, 
 
 /*  {
       type: "Feature",
